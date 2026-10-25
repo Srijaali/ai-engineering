@@ -10,18 +10,6 @@ A reproducible OpenRouter experiment comparing move latency and cube-solving out
 
 [![Recorded C1 completion — click to watch](docs/img/race-completion.jpg)](demo/rubiks-cube-race-demo.mp4)
 
-**Duration: 4:32.795 (approximately 4:33); size: 13,143,797 bytes (13.14 MB / 12.54 MiB).** H.264 video, AAC silent audio, 1920×1104, 30 fps. The supplied source is 191,352,809 bytes, 3456×1988 HEVC with no audio track. The compressed copy adds a silent AAC track; it does not invent narration, change the action sequence or alter duration. The original file was not modified. Both files report exactly 272.795 seconds with ffprobe.
-
-| Observed checkpoint | What is visible |
-|---|---|
-| **0:20** | In-progress LIVE C1 race; models choosing moves. |
-| **3:15** | All models finished C1; Opus SOLVED at 16 actions, the decision models reached 30. |
-| **4:00** | Statistics slide in the supplied recording. See the scope correction below. |
-
-These timestamps were selected by frame inspection; the owner supplied the total video length, not the three checkpoint timestamps. **AUTHOR CHECK: confirm these selected checkpoints before submission.** Name and roll are in the fixed header; they were readable at 0:00, 0:20, 2:16.398, 3:15, 4:00 and 4:32. This is spot checking, not an every-frame visibility audit.
-
-**Recording scope correction:** the original closing dashboard predates the final paired-scope decision and includes completed C3 decision-model trials in denominators (0/3). The final README/current dashboard use paired C1+C2 (0/2 and 1/2), with C3 separate. The recording’s historical slide has not been altered or represented as matching the corrected headline. **AUTHOR ACTION: decide whether to replace the closing slide/recording; a corrected dashboard image appears below.** C1’s in-progress/completion footage is a real LIVE run, not replay.
-
 <!-- RESULTS:START -->
 ### Results at a glance — paired primary set
 
@@ -285,29 +273,3 @@ Reported token sums cover only attempts with that field; unknown counts are show
 | [decisions.md](decisions.md) / [flow.md](flow.md) | Append-only decisions and execution/data-flow trace |
 | [docs/submission](docs/submission) | Cleanup manifest, clean-copy verification and security/video audit |
 
-## 11. Reproducibility
-
-Regenerate the cache and suites from master seed 20261024, offline:
-
-```bash
-python scripts/build_bfs.py
-python scripts/make_puzzles.py
-python scripts/make_readme_results.py
-python scripts/make_readme_results.py --check
-python -m pytest backend/tests -q
-python scripts/check_flow.py
-```
-
-The first command rebuilds the ignored depth-five cache. The second rewrites the three suites byte-identically from the fixed seed; tests independently verify exact small-puzzle distances and extension Kociemba round trips. The README generator reads the preserved LIVE JSONL and public billing snapshot, recreates the paired scope, every section-7 table, Random baseline and both generated result blocks without inference. A test asserts re-running it leaves the README bytes unchanged. All generated results reside between two `<!-- RESULTS:START -->` / `<!-- RESULTS:END -->` marker pairs: the headline and full section respectively.
-
-Cost sums use Decimal, preserve null costs and count each recorded attempt once. The public snapshot is an offline export of the mutable SQLite ledger using `scripts/export_submission_evidence.py`; do not regenerate it from an empty/new ledger or overwrite historical evidence. The snapshot excludes reusable run-consent tokens and lets a clean app restore counters without resetting the budget. The original mutable database and `.env` remain ignored/private. Stage totals, chronology and resolved routes are traceable to attempt IDs and LIVE paths in the generated tables.
-
-[Cleanup manifest](docs/submission/archive-manifest.md), [clean-copy verification](docs/submission/verification.md), [video audit](docs/submission/video-audit.json) and [secret-scan summary](docs/submission/security-scan.json) document the final checks. The owner must review and commit the retained evidence manually; no commit or push was made by the assistant.
-
-## 12. Collaboration and AI-assistance disclosure
-
-**AUTHOR TO WRITE — placeholder.** Describe collaborators, assistance/tools used, what you implemented or verified yourself, and any disclosure required by the course. This section is deliberately not written on the author’s behalf.
-
-## 13. Security
-
-Real API keys stay only in local backend `.env`, which is ignored alongside virtualenvs and caches. Only `.env.example` placeholders belong in Git. The browser calls the local backend and never receives Authorization credentials. Request logging redacts Authorization and key values. The preserved public evidence omits reusable consent tokens. Run the submission secret scan before your manual commit/push, review every hit, and never publish `.env` or the mutable private ledger.
