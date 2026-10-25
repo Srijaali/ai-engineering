@@ -1,0 +1,45 @@
+[
+  {
+    "id": "warmup-001",
+    "suite": "warmup",
+    "seed": 3254102611660890292,
+    "scramble": [
+      "R",
+      "D2",
+      "L'"
+    ],
+    "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+    "scramble_length": 3,
+    "exact_optimal": 3,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "warmup-002",
+    "suite": "warmup",
+    "seed": 1369445210141965186,
+    "scramble": [
+      "U'",
+      "R2",
+      "U2",
+      "R2"
+    ],
+    "facelets": "DUUDUUDUUFFFRRRBBBFRLFFFFFLDDUDDUDDURRRLLLLLLRLBBBBRBB",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "warmup-003",
+    "suite": "warmup",
+    "seed": 11972838813487160407,
+    "scramble": [
+      "F",
+      "U",
+      "B"
+    ],
+    "facelets": "BRRLUULUUBBDURDURDURRFFFFFFRRRDDDFLLUFFULDLLDBBLBBLBBD",
+    "scramble_length": 3,
+    "exact_optimal": 3,
+    "reference_upper_bound": null
+  }
+]

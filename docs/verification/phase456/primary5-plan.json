@@ -1,0 +1,41 @@
+{
+  "puzzles": 5,
+  "models": 4,
+  "max_moves": 30,
+  "run_budget_s": 300.0,
+  "planned_initial_calls": 600,
+  "recommended_request_cap": 1200,
+  "max_requests": 1000,
+  "max_spend_usd": 4.0,
+  "fixed_config": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 3000,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "accounting": {
+    "requests": 30,
+    "known_cost_usd": "0.022895124",
+    "unknown_cost_attempts": 12,
+    "cost_usd": null,
+    "unknown_cost_holds_usd": "1.2"
+  },
+  "opus": {
+    "measured_seconds_per_call": 15.958489874999941,
+    "measured_cost_per_call_usd": "0.021992",
+    "measurement_output_cap": 1500,
+    "current_output_cap": 3000,
+    "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+    "expected_per_trial_usd": "0.4134225764265821168077163798",
+    "expected_selected_puzzles_usd": "2.067112882132910584038581899",
+    "worst_case_per_trial_usd": "5.421840",
+    "worst_case_selected_puzzles_usd": "27.109200",
+    "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+    "caveat": "Planning scenario from one 1500-token smoke; 3000-token runtime/cost is unmeasured. Not a bill guarantee."
+  }
+}

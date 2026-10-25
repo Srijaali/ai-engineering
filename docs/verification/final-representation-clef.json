@@ -1,0 +1,99 @@
+{
+  "phase": 0,
+  "stage": "clef",
+  "timestamp_utc": "2026-10-24T16:30:22.626986+00:00",
+  "model_id": "cloudflare/clef",
+  "scramble": [
+    "R",
+    "U",
+    "F'",
+    "L2"
+  ],
+  "request_file": "docs/verification/final-representation-clef.request.json",
+  "sha256": "d1361fa034ae6636ff24168d5940cdff32c9654b727f065e7ea3abcbcc0131ac",
+  "http_status": 200,
+  "resolved_model": "cloudflare/clef",
+  "provider": "PrimeIntellect",
+  "usage_cost": 4.3344e-05,
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "latency_ms": 1430.1907499993831,
+  "response": {
+    "model": "cloudflare/clef",
+    "answers": {
+      "next_move": {
+        "type": "choice",
+        "choice": "U'",
+        "probabilities": {
+          "U": 0.0815,
+          "U'": 0.1059,
+          "U2": 0.0923,
+          "D": 0.0545,
+          "D'": 0.0462,
+          "D2": 0.038,
+          "L": 0.0594,
+          "L'": 0.0618,
+          "L2": 0.0512,
+          "R": 0.0415,
+          "R'": 0.0805,
+          "R2": 0.0485,
+          "F": 0.0504,
+          "F'": 0.0567,
+          "F2": 0.0504,
+          "B": 0.0299,
+          "B'": 0.0274,
+          "B2": 0.024
+        },
+        "confidence": 0.0533
+      }
+    },
+    "usage": {
+      "input_tokens": 1032,
+      "output_tokens": 0,
+      "cost": 4.3344e-05
+    },
+    "id": "gen-dec-1792859423-CKgHr7TX8TmxU82PYABn",
+    "provider": "PrimeIntellect"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "next_move": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "U": "float",
+          "U'": "float",
+          "U2": "float",
+          "D": "float",
+          "D'": "float",
+          "D2": "float",
+          "L": "float",
+          "L'": "float",
+          "L2": "float",
+          "R": "float",
+          "R'": "float",
+          "R2": "float",
+          "F": "float",
+          "F'": "float",
+          "F2": "float",
+          "B": "float",
+          "B'": "float",
+          "B2": "float"
+        },
+        "confidence": "float"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "choice": "U'",
+  "confidence": 0.0533,
+  "probability_count": 18
+}

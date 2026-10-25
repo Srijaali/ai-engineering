@@ -1,0 +1,77 @@
+{
+  "phase": 0,
+  "timestamp_utc": "20261024T151401352924Z",
+  "benchmark_data": false,
+  "timeout_s": 120.0,
+  "config": {
+    "opus_effort": "low",
+    "opus_max_tokens": 4096,
+    "opus_temperature": 0.0,
+    "max_spend_usd": 1.0
+  },
+  "network_floor": [],
+  "calls": [],
+  "key": {
+    "http_status": 200,
+    "latency_ms": 1080.7991250001123,
+    "data": {
+      "limit": null,
+      "limit_remaining": null,
+      "usage": 0
+    }
+  },
+  "credits": {
+    "http_status": 200,
+    "latency_ms": 279.24991700001556,
+    "data": {
+      "total_credits": 0,
+      "total_usage": 0.10018791
+    }
+  },
+  "models": {
+    "typesafe/jev-1.13": {
+      "present": false,
+      "pricing": null,
+      "supported_parameters": null
+    },
+    "openai/gpt-6-luna-decisions": {
+      "present": false,
+      "pricing": null,
+      "supported_parameters": null
+    },
+    "cloudflare/clef": {
+      "present": false,
+      "pricing": null,
+      "supported_parameters": null
+    },
+    "anthropic/claude-opus-5.5": {
+      "present": true,
+      "pricing": {
+        "prompt": "0.000004",
+        "completion": "0.00002",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005",
+        "input_cache_write_1h": "0.000008"
+      },
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ]
+    }
+  },
+  "complete": false,
+  "blocker": {
+    "type": "RuntimeError",
+    "message": "Frozen model absent from live catalog; stop for review"
+  }
+}

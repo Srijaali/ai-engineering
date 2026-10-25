@@ -1,0 +1,10 @@
+{
+  "master_seed": 20261024,
+  "cli_runs": 2,
+  "byte_identical": true,
+  "sha256": {
+    "warmup": "d68c7481b7989ff9c06a80897a74cb93f538372ffba141e2552da4447e370b11",
+    "primary": "d812461cb93e439c77224db63a402c5015084fbcdffedde702e0ee5e55b9da95",
+    "extension": "39f58f85091b70742a5b4af6b434bc08c76d583a1ce0b4a5e988f811280b1294"
+  }
+}

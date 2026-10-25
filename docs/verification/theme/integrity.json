@@ -1,0 +1,15 @@
+{
+  "protected_modules_and_env_unchanged": true,
+  "only_backend_change": "read-only /static asset mount",
+  "cost_ledger_unchanged": {
+    "requests": 30,
+    "known_cost_usd": "0.022895124",
+    "unknown_cost_attempts": 12,
+    "cost_usd": null,
+    "unknown_cost_holds_usd": "1.2"
+  },
+  "paid_calls": 0,
+  "commits": 0,
+  "pushes": 0,
+  "tests": 481
+}

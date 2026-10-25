@@ -1,0 +1,14 @@
+{
+  "http_status": 200,
+  "key_present": true,
+  "key_changed_independently_verified": null,
+  "metadata": {
+    "limit": 5,
+    "limit_remaining": 5,
+    "usage": 0,
+    "usage_daily": 0,
+    "usage_monthly": 0,
+    "is_free_tier": true
+  },
+  "purpose": "read-only budget preflight; no model calls"
+}

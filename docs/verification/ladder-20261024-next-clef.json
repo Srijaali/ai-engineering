@@ -1,0 +1,106 @@
+{
+  "phase": 0,
+  "stage": "clef",
+  "timestamp_utc": "2026-10-24T16:00:33.265137+00:00",
+  "account_context": "current .env key; user reports purchased credits",
+  "model_id": "cloudflare/clef",
+  "http_status": 200,
+  "resolved_model": "cloudflare/clef",
+  "provider": "PrimeIntellect",
+  "usage_cost": 3.9648e-05,
+  "request_file": "docs/verification/ladder-20261024-next-clef.request.json",
+  "request_body_sha256": "7bf9e3307aea77762df2e40ad0d51b169ddd6521eb5f397f0187b2386e6f5e44",
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "latency_ms": 1362.6248749997103,
+  "response": {
+    "model": "cloudflare/clef",
+    "answers": {
+      "next_move": {
+        "type": "choice",
+        "choice": "U",
+        "probabilities": {
+          "U": 0.2035,
+          "U'": 0.0749,
+          "U2": 0.0635,
+          "D": 0.0371,
+          "D'": 0.0312,
+          "D2": 0.0365,
+          "L": 0.0414,
+          "L'": 0.0332,
+          "L2": 0.0338,
+          "R": 0.0869,
+          "R'": 0.0803,
+          "R2": 0.0583,
+          "F": 0.0574,
+          "F'": 0.044,
+          "F2": 0.042,
+          "B": 0.0259,
+          "B'": 0.0293,
+          "B2": 0.0208
+        },
+        "confidence": 0.1566
+      }
+    },
+    "usage": {
+      "input_tokens": 944,
+      "output_tokens": 0,
+      "cost": 3.9648e-05
+    },
+    "id": "gen-dec-1792857634-QAHEUJ5FXCDaPHLBN7kp",
+    "provider": "PrimeIntellect"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "next_move": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "U": "float",
+          "U'": "float",
+          "U2": "float",
+          "D": "float",
+          "D'": "float",
+          "D2": "float",
+          "L": "float",
+          "L'": "float",
+          "L2": "float",
+          "R": "float",
+          "R'": "float",
+          "R2": "float",
+          "F": "float",
+          "F'": "float",
+          "F2": "float",
+          "B": "float",
+          "B'": "float",
+          "B2": "float"
+        },
+        "confidence": "float"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "chosen_id": "U",
+  "confidence": 0.1566,
+  "confidence_present": true,
+  "probabilities_present": true,
+  "move": "U",
+  "probability_summary": {
+    "count": 18,
+    "sum": 1.0,
+    "min": 0.0208,
+    "max": 0.2035,
+    "uniform_reference": 0.05555555555555555,
+    "entropy_bits_renormalized": 3.8916619087419426,
+    "uniform_entropy_bits": 4.169925001442312,
+    "all_expected_ids_present": true
+  }
+}

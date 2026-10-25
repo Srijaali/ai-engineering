@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "working_files_scanned": 258,
+  "history_commits": 1,
+  "history_unique_blobs": 1,
+  "env_ignored": true,
+  "findings": [
+    {
+      "scope": "working_tree",
+      "path": ".env",
+      "category": "Potential credential or exact private env content",
+      "expected_private_env": true
+    }
+  ],
+  "authorization_syntax_hits": [
+    {
+      "scope": "working_tree",
+      "path": "backend/app/models/base.py",
+      "category": "Authorization syntax; review placeholders/redaction versus credential",
+      "contains_potential_secret": false
+    },
+    {
+      "scope": "working_tree",
+      "path": "scripts/smoke_openrouter.py",
+      "category": "Authorization syntax; review placeholders/redaction versus credential",
+      "contains_potential_secret": false
+    },
+    {
+      "scope": "working_tree",
+      "path": "scripts/probe_decisions.py",
+      "category": "Authorization syntax; review placeholders/redaction versus credential",
+      "contains_potential_secret": false
+    }
+  ],
+  "unexpected_secret_hits": 0,
+  "matching_values_printed": false
+}

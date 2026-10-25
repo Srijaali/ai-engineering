@@ -1,0 +1,15 @@
+{
+  "counts": [
+    1,
+    18,
+    243,
+    3240,
+    43239,
+    574908
+  ],
+  "total_states": 621649,
+  "total_build_time_s": 5.3376955840003575,
+  "peak_process_rss_bytes": 190840832,
+  "compressed_bytes": 9921966,
+  "provenance": "Preserved read-only tool output before regeneration on 2026-10-25"
+}

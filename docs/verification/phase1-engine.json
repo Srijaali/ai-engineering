@@ -1,0 +1,28 @@
+{
+  "phase": 1,
+  "timestamp_utc": "2026-10-24T15:43:01.729376+00:00",
+  "python": "3.10.0",
+  "kociemba_version": "1.2.1",
+  "test_command": ".venv/bin/python -m pytest -q --junitxml=docs/verification/phase1-tests.xml",
+  "tests": 302,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "pytest_reported_duration_s": 0.91,
+  "junit_suite_duration_s": 0.905,
+  "oracle_cases": 200,
+  "oracle_seed_first": 20261024,
+  "oracle_seed_last": 20261223,
+  "oracle_scramble_lengths": "1 + case % 30 for case in range(200)",
+  "independent_single_move_checks": 18,
+  "network_connections_blocked_in_tests": true,
+  "openrouter_calls_this_phase": 0,
+  "bfs_built": false,
+  "puzzle_suites_created": false,
+  "sha256": {
+    "backend/app/cube/engine.py": "58ce83e1081678e54ddeb9a9907c8baedb0c6af7f7358a9f11f24e38864228cb",
+    "backend/tests/test_engine.py": "20f42965b668349fcb55a980b7f599740e80c56809e779839b5fb0cd65983f73",
+    "backend/tests/conftest.py": "3b5720e0d6b1c26988b203f0ba54cdaea5f2275575d22f2cd9b14a53089c3c3d",
+    "backend/app/prompts.py": "dfdc8c6e58b876748774c557e44a64842fc26392e102695fe414b9beb71e0edb"
+  }
+}

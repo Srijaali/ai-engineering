@@ -1,0 +1,19 @@
+{
+  "scramble": [
+    "F",
+    "R",
+    "U'",
+    "B2"
+  ],
+  "facelets": "BDDUULUULFFLRRLRRLLLDFFDFFDRRBDDBFFFRBBRLDRLDBBUBBUUUU",
+  "net": "    U\n    BDD\n    UUL\n    UUL\nL   F   R   B\nRBB LLD FFL BBU\nRLD FFD RRL BBU\nRLD FFD RRL UUU\n    D\n    RRB\n    DDB\n    FFF",
+  "kociemba_bound3": {
+    "max_depth": 3,
+    "no_solution_returned": true,
+    "message": "Error. Probably cubestring is invalid",
+    "elapsed_s": 0.003320916000120633
+  },
+  "kociemba_bound4_solution": "B2 U R' F'",
+  "kociemba_bound4_solves": true,
+  "scope": "local independent-oracle check only; no BFS/cache or puzzle suite built"
+}

@@ -1,0 +1,6 @@
+{
+  "real_http_transport_attempts": 0,
+  "actual_outbound_requests": 0,
+  "socket_connections_blocked_by_test_fixture": true,
+  "mocked_responses_are_not_outbound_requests": true
+}

@@ -1,0 +1,37 @@
+{
+  "stage": "W",
+  "status": "BLOCKED_BEFORE_INFERENCE",
+  "suite": "warmup",
+  "puzzle_id": "warmup-001",
+  "mode": "LIVE",
+  "models": [
+    "typesafe/jev-1.13",
+    "openai/gpt-6-luna-decisions",
+    "cloudflare/clef"
+  ],
+  "opus_calls": 0,
+  "max_moves": 30,
+  "run_budget_s": 300.0,
+  "initial_calls_at_most": 90,
+  "configured_retry_envelope": 180,
+  "authorized_hard_stage_cap": 100,
+  "new_paid_calls": 0,
+  "settings_snapshot": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1024,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "ledger": {
+    "requests": 30,
+    "known_cost_usd": "0.022895124",
+    "unknown_cost_attempts": 12,
+    "unknown_cost_holds_usd": "1.2",
+    "headroom_under_4_after_holds_usd": "2.777104876"
+  }
+}

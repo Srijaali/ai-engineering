@@ -1,0 +1,66 @@
+{
+  "phase": 0,
+  "stage": "L1",
+  "model_id": "openai/gpt-6-luna-decisions",
+  "timestamp_utc": "2026-10-24T16:10:21.759448+00:00",
+  "request_file": "docs/verification/luna-ladder-l-20261024-L1.request.json",
+  "request_body_sha256": "ba9421625ea11e51d28985e9e6e9e75536a2ff9e04d5f83fc823fdb75d7ba97d",
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "http_status": 200,
+  "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+  "provider": "OpenAI",
+  "usage_cost": 1.64e-05,
+  "allowance_before": 6,
+  "latency_ms": 1514.769833000173,
+  "response": {
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "probabilities": {
+          "billing": 1,
+          "account": 0,
+          "other": 0
+        },
+        "confidence": 1
+      }
+    },
+    "usage": {
+      "input_tokens": 164,
+      "output_tokens": 0,
+      "cost": 1.64e-05
+    },
+    "id": "gen-dec-1792858223-51SrupOrbAKpjj1qR6II",
+    "provider": "OpenAI"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "team": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "billing": "int",
+          "account": "int",
+          "other": "int"
+        },
+        "confidence": "int"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "choice": "billing",
+  "confidence": 1,
+  "confidence_present": true,
+  "probabilities_present": true,
+  "allowance_remaining": 5
+}

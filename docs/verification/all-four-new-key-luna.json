@@ -1,0 +1,102 @@
+{
+  "phase": 0,
+  "stage": "luna",
+  "timestamp_utc": "2026-10-24T18:25:58.829129+00:00",
+  "account_context": "new key reported by user; ownership not independently verified",
+  "model_id": "openai/gpt-6-luna-decisions",
+  "http_status": 200,
+  "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+  "provider": "OpenAI",
+  "cost_usd": 8.06e-05,
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "request_file": "docs/verification/all-four-new-key-luna.request.json",
+  "request_body_sha256": "1116abf8012b3c1270dbe6457bc2205cfba3b32f4b0270d4f318ad2b930022c6",
+  "reservation_usd": "0.25",
+  "held_before_usd": "0.000049686",
+  "server_key_limit_usd": 5,
+  "local_cap_usd": "5",
+  "endpoint": "/api/alpha/decisions",
+  "latency_ms": 1331.5012080001907,
+  "response": {
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "answers": {
+      "next_move": {
+        "type": "choice",
+        "choice": "U",
+        "probabilities": {
+          "U": 0.14,
+          "U'": 0.07,
+          "U2": 0.06,
+          "D": 0.04,
+          "D'": 0.06,
+          "D2": 0.02,
+          "L": 0.05,
+          "L'": 0.03,
+          "L2": 0.03,
+          "R": 0.04,
+          "R'": 0.09,
+          "R2": 0.03,
+          "F": 0.09,
+          "F'": 0.08,
+          "F2": 0.04,
+          "B": 0.02,
+          "B'": 0.07,
+          "B2": 0.04
+        },
+        "confidence": 0.09
+      }
+    },
+    "usage": {
+      "input_tokens": 806,
+      "output_tokens": 0,
+      "cost": 8.06e-05
+    },
+    "id": "gen-dec-1792866359-2PeWTNeqQL0Y8N8uATM1",
+    "provider": "OpenAI"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "next_move": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "U": "float",
+          "U'": "float",
+          "U2": "float",
+          "D": "float",
+          "D'": "float",
+          "D2": "float",
+          "L": "float",
+          "L'": "float",
+          "L2": "float",
+          "R": "float",
+          "R'": "float",
+          "R2": "float",
+          "F": "float",
+          "F'": "float",
+          "F2": "float",
+          "B": "float",
+          "B'": "float",
+          "B2": "float"
+        },
+        "confidence": "float"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "move": "U",
+  "confidence": 0.09,
+  "probability_count": 18,
+  "valid": true,
+  "budget_stop": false,
+  "label_correction": "original temporary stage label clef; actual request was Luna, no repeat"
+}

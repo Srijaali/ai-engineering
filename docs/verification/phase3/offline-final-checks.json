@@ -1,0 +1,16 @@
+{
+  "paid_smoke_attempts": 4,
+  "retries": 0,
+  "extra_opus_calls": 0,
+  "prompt_engine_suites_later_placeholders_unchanged": true,
+  "current_key_exact_value_scan": "PASS",
+  "flow_check": "PASS",
+  "read_only_views_leave_requests_unchanged": true,
+  "total_requests": 30,
+  "known_cost_usd": "0.022895124",
+  "unknown_cost_attempts": 12,
+  "max_spend_usd": 5,
+  "max_requests": 1000,
+  "commits": 0,
+  "pushes": 0
+}

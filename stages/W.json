@@ -1,0 +1,7 @@
+{
+  "name": "W",
+  "suite": "warmup",
+  "puzzle_ids": ["warmup-001"],
+  "models": ["typesafe/jev-1.13", "openai/gpt-6-luna-decisions", "cloudflare/clef"],
+  "request_cap": 100
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "C4",
+    "puzzle_id": "primary-004",
+    "status": "NOT_RUN",
+    "reason": "Sequence stopped on C3 transport/deadline classification error"
+  },
+  {
+    "stage": "C5",
+    "puzzle_id": "primary-005",
+    "status": "NOT_RUN",
+    "reason": "Sequence stopped on C3 transport/deadline classification error"
+  }
+]

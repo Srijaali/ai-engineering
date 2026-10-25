@@ -1,0 +1,103 @@
+{
+  "master_seed": 20261024,
+  "suite_sizes": {
+    "warmup": 3,
+    "primary": 10,
+    "extension": 5
+  },
+  "independent_method": "Fresh two-ended radius-2/radius-3 searches using Kociemba cubie rotations; no cache or solve() lookup",
+  "independent_checks": [
+    {
+      "id": "warmup-001",
+      "cached_exact": 3,
+      "independent_exact": 3,
+      "verification_time_s": 0.10950904099991021
+    },
+    {
+      "id": "warmup-002",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10777254200002062
+    },
+    {
+      "id": "warmup-003",
+      "cached_exact": 3,
+      "independent_exact": 3,
+      "verification_time_s": 0.10675370800072415
+    },
+    {
+      "id": "primary-001",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10636270899976807
+    },
+    {
+      "id": "primary-002",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10618166600033874
+    },
+    {
+      "id": "primary-003",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10623745799966855
+    },
+    {
+      "id": "primary-004",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10639533300036419
+    },
+    {
+      "id": "primary-005",
+      "cached_exact": 4,
+      "independent_exact": 4,
+      "verification_time_s": 0.10727979199964466
+    },
+    {
+      "id": "primary-006",
+      "cached_exact": 5,
+      "independent_exact": 5,
+      "verification_time_s": 0.1064589170000545
+    },
+    {
+      "id": "primary-007",
+      "cached_exact": 5,
+      "independent_exact": 5,
+      "verification_time_s": 0.10624645900043106
+    },
+    {
+      "id": "primary-008",
+      "cached_exact": 5,
+      "independent_exact": 5,
+      "verification_time_s": 0.10613683300016419
+    },
+    {
+      "id": "primary-009",
+      "cached_exact": 5,
+      "independent_exact": 5,
+      "verification_time_s": 0.10609258300064539
+    },
+    {
+      "id": "primary-010",
+      "cached_exact": 5,
+      "independent_exact": 5,
+      "verification_time_s": 0.10601650000080554
+    }
+  ],
+  "files": {
+    "warmup": {
+      "bytes": 933,
+      "sha256": "d68c7481b7989ff9c06a80897a74cb93f538372ffba141e2552da4447e370b11"
+    },
+    "primary": {
+      "bytes": 3268,
+      "sha256": "d812461cb93e439c77224db63a402c5015084fbcdffedde702e0ee5e55b9da95"
+    },
+    "extension": {
+      "bytes": 4336,
+      "sha256": "39f58f85091b70742a5b4af6b434bc08c76d583a1ce0b4a5e988f811280b1294"
+    }
+  }
+}

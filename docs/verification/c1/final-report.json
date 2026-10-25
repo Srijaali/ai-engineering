@@ -1,0 +1,209 @@
+{
+  "recorded_utc": "2026-10-25T13:58:31.244178+00:00",
+  "server": "STOPPED after normal completed C1",
+  "run_id": "34f2e9b191ed6e951910f281b73b6c6b",
+  "status": "COMPLETED",
+  "models": [
+    {
+      "model_id": "typesafe/jev-1.13",
+      "status": "RAN_OUT_OF_MOVES",
+      "moves_used": 30,
+      "refusals": 0,
+      "forfeits": 0,
+      "truncated_responses": 0,
+      "other_malformed_outputs": 0,
+      "known_cost_usd": "0.001518384",
+      "unknown_cost_attempts": 0,
+      "requests": 30,
+      "total_time_s": 34.70829354199668,
+      "successful_latency_ms": {
+        "n": 30,
+        "mean": 1142.2092319662625,
+        "median": 990.2096250007162,
+        "p95": 1863.9580419985577
+      },
+      "cumulative_known_cost_usd": "0.003278394"
+    },
+    {
+      "model_id": "openai/gpt-6-luna-decisions",
+      "status": "RAN_OUT_OF_MOVES",
+      "moves_used": 30,
+      "refusals": 26,
+      "forfeits": 26,
+      "truncated_responses": 0,
+      "other_malformed_outputs": 0,
+      "known_cost_usd": "0.0003230",
+      "unknown_cost_attempts": 26,
+      "requests": 30,
+      "total_time_s": 40.47063608299504,
+      "successful_latency_ms": {
+        "n": 4,
+        "mean": 1293.5433127495344,
+        "median": 1034.0710420023242,
+        "p95": 2098.04370799975
+      },
+      "cumulative_known_cost_usd": "0.0019978"
+    },
+    {
+      "model_id": "cloudflare/clef",
+      "status": "RAN_OUT_OF_MOVES",
+      "moves_used": 30,
+      "refusals": 0,
+      "forfeits": 0,
+      "truncated_responses": 0,
+      "other_malformed_outputs": 0,
+      "known_cost_usd": "0.001524528",
+      "unknown_cost_attempts": 0,
+      "requests": 30,
+      "total_time_s": 40.37662516699493,
+      "successful_latency_ms": {
+        "n": 30,
+        "mean": 1338.8155749664293,
+        "median": 1204.6963960019639,
+        "p95": 2537.7614999961224
+      },
+      "cumulative_known_cost_usd": "0.003360396"
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5",
+      "status": "SOLVED",
+      "moves_used": 16,
+      "refusals": 0,
+      "forfeits": 1,
+      "truncated_responses": 1,
+      "other_malformed_outputs": 0,
+      "known_cost_usd": "0.231488",
+      "unknown_cost_attempts": 0,
+      "requests": 16,
+      "total_time_s": 182.8002712919988,
+      "successful_latency_ms": {
+        "n": 15,
+        "mean": 10749.381050134738,
+        "median": 11848.353125002177,
+        "p95": 20046.20650000288
+      },
+      "cumulative_known_cost_usd": "0.25348"
+    }
+  ],
+  "accounting": {
+    "total": {
+      "requests": 226,
+      "known_cost_usd": "0.26211659",
+      "unknown_cost_attempts": 53,
+      "cost_usd": null,
+      "unknown_cost_holds_usd": "2.6",
+      "budget_spend_usd": "0.344853912",
+      "historical_unknown_cost_holds_usd": "5.3",
+      "reconciliation": {
+        "id": 1,
+        "created_utc": "2026-10-25T13:39:35.803978+00:00",
+        "authoritative_spend_usd": "0.11",
+        "through_attempt_id": 120,
+        "known_at_checkpoint_usd": "0.027262678",
+        "evidence": {
+          "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+          "reported_total_usd": "0.11",
+          "reported_tokens_approximate": 90000,
+          "dashboard_as_of_time": null,
+          "dashboard_view": null,
+          "dashboard_date_range": null,
+          "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+          "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+        }
+      }
+    },
+    "by_model": {
+      "typesafe/jev-1.13": {
+        "requests": 65,
+        "known_cost_usd": "0.003278394",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.003278394",
+        "unknown_cost_holds_usd": "0"
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 74,
+        "known_cost_usd": "0.0019978",
+        "unknown_cost_attempts": 48,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "4.8"
+      },
+      "cloudflare/clef": {
+        "requests": 65,
+        "known_cost_usd": "0.003360396",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.003360396",
+        "unknown_cost_holds_usd": "0"
+      },
+      "anthropic/claude-opus-5.5": {
+        "requests": 22,
+        "known_cost_usd": "0.25348",
+        "unknown_cost_attempts": 5,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.5"
+      }
+    },
+    "by_run": {
+      "34f2e9b191ed6e951910f281b73b6c6b": {
+        "requests": 106,
+        "known_cost_usd": "0.234853912",
+        "unknown_cost_attempts": 26,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "2.6"
+      },
+      "b36abd523b1f492241fbf6879006d22d": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      },
+      "historical": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3-smoke-001": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "by_suite": {
+      "diagnostic": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3_smoke": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      },
+      "primary": {
+        "requests": 106,
+        "known_cost_usd": "0.234853912",
+        "unknown_cost_attempts": 26,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "2.6"
+      },
+      "warmup": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      }
+    },
+    "not_run": []
+  },
+  "headroom_after_active_holds_usd": "1.055146088",
+  "new_requests_during_reporting": 0
+}

@@ -1,0 +1,96 @@
+{
+  "phase": 0,
+  "stage": "NET",
+  "model_id": "openai/gpt-6-luna-decisions",
+  "timestamp_utc": "2026-10-24T16:11:16.720391+00:00",
+  "request_file": "docs/verification/luna-ladder-l-20261024-NET.request.json",
+  "request_body_sha256": "b299b2df956dc9d2684565b8d09d6aee2f8034f32763f55543009c1072b97c99",
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "http_status": 200,
+  "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+  "provider": "OpenAI",
+  "usage_cost": 3.82e-05,
+  "allowance_before": 4,
+  "latency_ms": 1279.1580829998566,
+  "response": {
+    "model": "openai/gpt-6-luna-decisions-20261006",
+    "answers": {
+      "next_move": {
+        "type": "choice",
+        "choice": "F",
+        "probabilities": {
+          "U": 0.15,
+          "U'": 0.06,
+          "U2": 0.05,
+          "D": 0.03,
+          "D'": 0.04,
+          "D2": 0.01,
+          "L": 0.07,
+          "L'": 0.02,
+          "L2": 0.03,
+          "R": 0.07,
+          "R'": 0.1,
+          "R2": 0.02,
+          "F": 0.16,
+          "F'": 0.05,
+          "F2": 0.05,
+          "B": 0.02,
+          "B'": 0.05,
+          "B2": 0.02
+        },
+        "confidence": 0.11
+      }
+    },
+    "usage": {
+      "input_tokens": 382,
+      "output_tokens": 0,
+      "cost": 3.82e-05
+    },
+    "id": "gen-dec-1792858277-Ft4OhFvqp6D8ahqODnqP",
+    "provider": "OpenAI"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "next_move": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "U": "float",
+          "U'": "float",
+          "U2": "float",
+          "D": "float",
+          "D'": "float",
+          "D2": "float",
+          "L": "float",
+          "L'": "float",
+          "L2": "float",
+          "R": "float",
+          "R'": "float",
+          "R2": "float",
+          "F": "float",
+          "F'": "float",
+          "F2": "float",
+          "B": "float",
+          "B'": "float",
+          "B2": "float"
+        },
+        "confidence": "float"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "choice": "F",
+  "confidence": 0.11,
+  "confidence_present": true,
+  "probabilities_present": true,
+  "allowance_remaining": 3
+}

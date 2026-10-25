@@ -1,0 +1,104 @@
+{
+  "opus": {
+    "measured_seconds_per_call": 15.958489874999941,
+    "measured_cost_per_call_usd": "0.021992",
+    "measurement_output_cap": 1500,
+    "current_output_cap": 1024,
+    "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+    "expected_per_trial_usd": "0.4134225764265821168077163798",
+    "expected_selected_puzzles_usd": "0.4134225764265821168077163798",
+    "worst_case_per_trial_usd": "3.050640",
+    "worst_case_selected_puzzles_usd": "3.050640",
+    "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+    "caveat": "Planning scenario from one 1500-token smoke; 1024-token runtime/cost is unmeasured. Not a bill guarantee."
+  },
+  "stage": {
+    "name": "C1",
+    "suite": "primary",
+    "puzzle_ids": [
+      "primary-001"
+    ],
+    "models": [
+      "typesafe/jev-1.13",
+      "openai/gpt-6-luna-decisions",
+      "cloudflare/clef",
+      "anthropic/claude-opus-5.5"
+    ],
+    "request_cap": 240
+  },
+  "mode": "LIVE",
+  "models": [
+    "typesafe/jev-1.13",
+    "openai/gpt-6-luna-decisions",
+    "cloudflare/clef",
+    "anthropic/claude-opus-5.5"
+  ],
+  "puzzle_ids": [
+    "primary-001"
+  ],
+  "planned_initial_calls": 120,
+  "retry_envelope": 240,
+  "persistent_stage_request_cap": 240,
+  "global_max_requests": 1000,
+  "max_spend_usd": 4.0,
+  "headroom_after_holds_usd": "3.89",
+  "accounting": {
+    "requests": 120,
+    "known_cost_usd": "0.027262678",
+    "unknown_cost_attempts": 27,
+    "cost_usd": null,
+    "unknown_cost_holds_usd": "0",
+    "budget_spend_usd": "0.11",
+    "historical_unknown_cost_holds_usd": "2.7",
+    "reconciliation": {
+      "id": 1,
+      "created_utc": "2026-10-25T13:39:35.803978+00:00",
+      "authoritative_spend_usd": "0.11",
+      "through_attempt_id": 120,
+      "known_at_checkpoint_usd": "0.027262678",
+      "evidence": {
+        "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+        "reported_total_usd": "0.11",
+        "reported_tokens_approximate": 90000,
+        "dashboard_as_of_time": null,
+        "dashboard_view": null,
+        "dashboard_date_range": null,
+        "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+        "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+      }
+    }
+  },
+  "expected_cost_usd": "0.664967640",
+  "cost_scenario_by_model": {
+    "typesafe/jev-1.13": {
+      "measured_smoke_cost_per_call_usd": "0.000049686",
+      "thirty_moves_per_puzzle_scenario_usd": "0.001490580"
+    },
+    "openai/gpt-6-luna-decisions": {
+      "measured_smoke_cost_per_call_usd": "0.0000806",
+      "thirty_moves_per_puzzle_scenario_usd": "0.0024180"
+    },
+    "cloudflare/clef": {
+      "measured_smoke_cost_per_call_usd": "0.000043302",
+      "thirty_moves_per_puzzle_scenario_usd": "0.001299060"
+    },
+    "anthropic/claude-opus-5.5": {
+      "measured_smoke_cost_per_call_usd": "0.021992",
+      "thirty_moves_per_puzzle_scenario_usd": "0.659760",
+      "wall_time_formula_scenario_usd": "0.4134225764265821168077163798"
+    }
+  },
+  "cost_caveat": "Scenario: repeat one prior smoke price for 30 moves per model/puzzle, no retries. Not a guarantee; actual output, refusals, routing and retries vary.",
+  "fixed_config": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1024,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "concurrent": true
+}

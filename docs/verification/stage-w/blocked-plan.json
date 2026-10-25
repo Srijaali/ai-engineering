@@ -1,0 +1,42 @@
+{
+  "stage": "W",
+  "status": "BLOCKED_BEFORE_INFERENCE",
+  "suite": "warmup",
+  "puzzle_ids": [
+    "warmup-001"
+  ],
+  "mode": "LIVE",
+  "models": [
+    "typesafe/jev-1.13",
+    "openai/gpt-6-luna-decisions",
+    "cloudflare/clef"
+  ],
+  "excluded_models": [
+    "anthropic/claude-opus-5.5"
+  ],
+  "max_moves": 30,
+  "run_budget_s": 300.0,
+  "planned_initial_calls": 90,
+  "configured_transport_retries": 1,
+  "configured_malformed_retries": 0,
+  "retry_envelope": 180,
+  "authorized_stage_request_cap": 100,
+  "global_limits_unchanged": {
+    "max_requests": 1000,
+    "max_spend_usd": 4.0
+  },
+  "accounting": {
+    "requests": 30,
+    "known_cost_usd": "0.022895124",
+    "unknown_cost_attempts": 12,
+    "unknown_cost_holds_usd": "1.2",
+    "headroom_after_holds_usd": "2.777104876"
+  },
+  "paid_calls_made": 0,
+  "blockers": [
+    "CLI is offline plan-only; no confirmed execution path",
+    "Workflow.execute always constructs all four assigned agents",
+    "Ledger.approve has no explicit stage request-cap override; current run allowance is 240",
+    "Unexpected failure in one trial does not cancel/stop the remaining trials; stage-wide stop-on-error needs explicit support"
+  ]
+}

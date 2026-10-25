@@ -1,0 +1,27 @@
+{
+  "phase": 0,
+  "timestamp_utc": "2026-10-24T16:03:24.576253+00:00",
+  "calls": 5,
+  "retries": 0,
+  "statuses": {
+    "jev": 200,
+    "clef": 200,
+    "luna-a": 502,
+    "luna-b": 502,
+    "opus": 402
+  },
+  "luna_calls_this_batch": 2,
+  "luna_non402_allowance_remaining": 2,
+  "stopped_on_402": true,
+  "reported_cost_sum_usd": "0.000085638",
+  "unreported_cost_stages": [
+    "luna-a",
+    "luna-b",
+    "opus"
+  ],
+  "jev_latency_includes_client_initialization": true,
+  "newline_in_decoded_instruction": "one real LF; zero literal backslash-n sequences",
+  "phase2_started": false,
+  "request_diff_and_hash_checks": "PASS",
+  "evidence_current_key_value_scan": "PASS"
+}

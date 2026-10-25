@@ -1,0 +1,41 @@
+{
+  "phase": 0,
+  "timestamp_utc": "2026-10-24T16:12:30.068642+00:00",
+  "stages": {
+    "L1": {
+      "http_status": 200,
+      "latency_ms": 1514.769833000173,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "usage_cost": 1.64e-05,
+      "choice": "billing",
+      "confidence": 1
+    },
+    "L2": {
+      "http_status": 502,
+      "latency_ms": 1255.7211250004912,
+      "resolved_model": null,
+      "provider": null,
+      "usage_cost": null,
+      "choice": null,
+      "confidence": null
+    },
+    "NET": {
+      "http_status": 200,
+      "latency_ms": 1279.1580829998566,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "usage_cost": 3.82e-05,
+      "choice": "F",
+      "confidence": 0.11
+    }
+  },
+  "calls": 3,
+  "retries": 0,
+  "luna_allowance_remaining": 3,
+  "benchmark_data": false,
+  "production_wording_changed": false,
+  "text_net_lossless_roundtrip": "PASS",
+  "question_and_18_keys_preserved": "PASS",
+  "current_key_value_scan": "PASS"
+}

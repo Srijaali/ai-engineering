@@ -1,0 +1,32 @@
+{
+  "protected_files_unchanged": [
+    "backend/app/runner.py",
+    "backend/app/config.py",
+    "backend/app/env.py",
+    "backend/app/benchmark.py",
+    "backend/app/__init__.py",
+    "backend/app/prompts.py",
+    "backend/app/stats.py",
+    "backend/app/storage.py",
+    "backend/app/main.py",
+    "backend/app/cube/puzzles.py",
+    "backend/app/cube/__init__.py",
+    "backend/app/cube/engine.py",
+    "backend/app/cube/reference.py",
+    "backend/app/cube/optimal.py",
+    "backend/app/models/accounting.py",
+    "backend/app/models/decisions_client.py",
+    "backend/app/models/registry.py",
+    "backend/app/models/__init__.py",
+    "backend/app/models/chat_client.py",
+    "backend/app/models/mock_agent.py",
+    "backend/app/models/base.py",
+    "frontend/race.js",
+    ".env"
+  ],
+  "tests_passed": 481,
+  "paid_calls": 0,
+  "commits": 0,
+  "pushes": 0,
+  "budget_display": "confirmation dialog on race page; unchanged on dashboard"
+}

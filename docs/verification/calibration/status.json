@@ -1,0 +1,93 @@
+{
+  "status": "BLOCKED_EXECUTION_REQUEST_REJECTED",
+  "paid_calibration_calls": 0,
+  "reason": "Execution permission was rejected before process startup; no inference and no consent run created",
+  "owner": "Rijaa",
+  "owner_choice_status": "tentative_pending_calibration",
+  "current_config_snapshot": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1024,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "env_unchanged": true,
+  "frozen_prompt_unchanged": true,
+  "recommendation": null,
+  "accounting": {
+    "total": {
+      "requests": 30,
+      "known_cost_usd": "0.022895124",
+      "unknown_cost_attempts": 12,
+      "cost_usd": null,
+      "unknown_cost_holds_usd": "1.2"
+    },
+    "by_model": {
+      "typesafe/jev-1.13": {
+        "requests": 5,
+        "known_cost_usd": "0.000241038",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.000241038",
+        "unknown_cost_holds_usd": "0"
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 14,
+        "known_cost_usd": "0.0004528",
+        "unknown_cost_attempts": 7,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.7"
+      },
+      "cloudflare/clef": {
+        "requests": 5,
+        "known_cost_usd": "0.000209286",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.000209286",
+        "unknown_cost_holds_usd": "0"
+      },
+      "anthropic/claude-opus-5.5": {
+        "requests": 6,
+        "known_cost_usd": "0.021992",
+        "unknown_cost_attempts": 5,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.5"
+      }
+    },
+    "by_run": {
+      "historical": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3-smoke-001": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "by_suite": {
+      "diagnostic": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3_smoke": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "not_run": []
+  }
+}

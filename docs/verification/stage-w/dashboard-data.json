@@ -1,0 +1,4696 @@
+{
+  "statistics": {
+    "warmup": [
+      {
+        "model_id": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "baseline": false,
+        "planned": 1,
+        "eligible": 1,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 1
+        },
+        "solved": 0,
+        "denominator": 1,
+        "success_rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ],
+        "latency_ms": {
+          "n": 30,
+          "mean": 972.2259345997978,
+          "median": 916.5624164998007,
+          "p95": 1077.453541001887
+        },
+        "decision_latency_ms": {
+          "n": 30,
+          "mean": 975.3925402332243,
+          "median": 920.0453124994965,
+          "p95": 1081.7936250023195
+        },
+        "total_s": {
+          "n": 1,
+          "mean": 29.469396082997264,
+          "median": 29.469396082997264,
+          "p95": 29.469396082997264
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 1,
+          "mean": 30,
+          "median": 30,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 1
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 22,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 30,
+          "reduced": 12,
+          "no_progress": 18,
+          "on_optimal_path_rate": 0.4,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 26,
+          "pairs": 29,
+          "rate": 0.896551724137931
+        },
+        "confidence_progress": [
+          {
+            "confidence": 0.11,
+            "reduced": false
+          },
+          {
+            "confidence": 0.17,
+            "reduced": true
+          },
+          {
+            "confidence": 0.1,
+            "reduced": false
+          },
+          {
+            "confidence": 0.13,
+            "reduced": true
+          },
+          {
+            "confidence": 0.1,
+            "reduced": false
+          },
+          {
+            "confidence": 0.14,
+            "reduced": true
+          },
+          {
+            "confidence": 0.09,
+            "reduced": false
+          },
+          {
+            "confidence": 0.08,
+            "reduced": true
+          },
+          {
+            "confidence": 0.09,
+            "reduced": false
+          },
+          {
+            "confidence": 0.06,
+            "reduced": true
+          },
+          {
+            "confidence": 0.08,
+            "reduced": false
+          },
+          {
+            "confidence": 0.07,
+            "reduced": true
+          },
+          {
+            "confidence": 0.09,
+            "reduced": false
+          },
+          {
+            "confidence": 0.06,
+            "reduced": false
+          },
+          {
+            "confidence": 0.11,
+            "reduced": false
+          },
+          {
+            "confidence": 0.09,
+            "reduced": true
+          },
+          {
+            "confidence": 0.07,
+            "reduced": false
+          },
+          {
+            "confidence": 0.07,
+            "reduced": true
+          },
+          {
+            "confidence": 0.11,
+            "reduced": false
+          },
+          {
+            "confidence": 0.09,
+            "reduced": true
+          },
+          {
+            "confidence": 0.08,
+            "reduced": false
+          },
+          {
+            "confidence": 0.05,
+            "reduced": true
+          },
+          {
+            "confidence": 0.06,
+            "reduced": false
+          },
+          {
+            "confidence": 0.05,
+            "reduced": true
+          },
+          {
+            "confidence": 0.1,
+            "reduced": false
+          },
+          {
+            "confidence": 0.07,
+            "reduced": true
+          },
+          {
+            "confidence": 0.08,
+            "reduced": false
+          },
+          {
+            "confidence": 0.07,
+            "reduced": false
+          },
+          {
+            "confidence": 0.1,
+            "reduced": false
+          },
+          {
+            "confidence": 0.14,
+            "reduced": false
+          }
+        ],
+        "entropy_nats": {
+          "n": 30,
+          "mean": 2.7170666722609838,
+          "median": 2.7328307090555333,
+          "p95": 2.79493338995992
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0.001518972",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0.001518972",
+          "requests": 30,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "openai/gpt-6-luna-decisions",
+        "name": "GPT-6 Luna Decisions",
+        "baseline": false,
+        "planned": 1,
+        "eligible": 1,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 1
+        },
+        "solved": 0,
+        "denominator": 1,
+        "success_rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ],
+        "latency_ms": {
+          "n": 15,
+          "mean": 1074.6581584004161,
+          "median": 982.1990000018559,
+          "p95": 2147.467165999842
+        },
+        "decision_latency_ms": {
+          "n": 30,
+          "mean": 1036.2325778326824,
+          "median": 984.1954374987836,
+          "p95": 1200.059708997287
+        },
+        "total_s": {
+          "n": 1,
+          "mean": 31.28395612500026,
+          "median": 31.28395612500026,
+          "p95": 31.28395612500026
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 1,
+          "mean": 30,
+          "median": 30,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 1
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 20,
+        "refusals": 15,
+        "forfeits": 15,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 30,
+          "reduced": 2,
+          "no_progress": 28,
+          "on_optimal_path_rate": 0.06666666666666667,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 7,
+          "pairs": 14,
+          "rate": 0.5
+        },
+        "confidence_progress": [
+          {
+            "confidence": 0.1,
+            "reduced": false
+          },
+          {
+            "confidence": 0.28,
+            "reduced": false
+          },
+          {
+            "confidence": 0.13,
+            "reduced": false
+          },
+          {
+            "confidence": 0.25,
+            "reduced": true
+          },
+          {
+            "confidence": 0.18,
+            "reduced": false
+          },
+          {
+            "confidence": 0.25,
+            "reduced": false
+          },
+          {
+            "confidence": 0.16,
+            "reduced": false
+          },
+          {
+            "confidence": 0.14,
+            "reduced": true
+          },
+          {
+            "confidence": 0.11,
+            "reduced": false
+          },
+          {
+            "confidence": 0.3,
+            "reduced": false
+          },
+          {
+            "confidence": 0.41,
+            "reduced": false
+          },
+          {
+            "confidence": 0.32,
+            "reduced": false
+          },
+          {
+            "confidence": 0.25,
+            "reduced": false
+          },
+          {
+            "confidence": 0.15,
+            "reduced": false
+          },
+          {
+            "confidence": 0.24,
+            "reduced": false
+          }
+        ],
+        "entropy_nats": {
+          "n": 15,
+          "mean": 2.3568839208106964,
+          "median": 2.3576248049296664,
+          "p95": 2.7555906931376732
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0.0012220",
+          "unknown_cost_attempts": 15,
+          "cost_usd": null,
+          "requests": 30,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "cloudflare/clef",
+        "name": "Clef",
+        "baseline": false,
+        "planned": 1,
+        "eligible": 1,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 1
+        },
+        "solved": 0,
+        "denominator": 1,
+        "success_rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.7934506856227626
+        ],
+        "latency_ms": {
+          "n": 30,
+          "mean": 1206.014174899974,
+          "median": 1171.4897915007896,
+          "p95": 1531.7915839987108
+        },
+        "decision_latency_ms": {
+          "n": 30,
+          "mean": 1208.8889262335822,
+          "median": 1174.9791040001583,
+          "p95": 1533.5100419979426
+        },
+        "total_s": {
+          "n": 1,
+          "mean": 36.71603004200006,
+          "median": 36.71603004200006,
+          "p95": 36.71603004200006
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 1,
+          "mean": 30,
+          "median": 30,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 1
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 21,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 11,
+          "reduced": 3,
+          "no_progress": 8,
+          "on_optimal_path_rate": 0.2727272727272727,
+          "unknown": 19
+        },
+        "immediate_inverses": {
+          "count": 6,
+          "pairs": 29,
+          "rate": 0.20689655172413793
+        },
+        "confidence_progress": [
+          {
+            "confidence": 0.0468,
+            "reduced": false
+          },
+          {
+            "confidence": 0.0806,
+            "reduced": true
+          },
+          {
+            "confidence": 0.0651,
+            "reduced": false
+          },
+          {
+            "confidence": 0.0359,
+            "reduced": true
+          },
+          {
+            "confidence": 0.1222,
+            "reduced": false
+          },
+          {
+            "confidence": 0.1067,
+            "reduced": false
+          },
+          {
+            "confidence": 0.0877,
+            "reduced": false
+          },
+          {
+            "confidence": 0.0622,
+            "reduced": true
+          },
+          {
+            "confidence": 0.0601,
+            "reduced": false
+          },
+          {
+            "confidence": 0.0931,
+            "reduced": false
+          },
+          {
+            "confidence": 0.1182,
+            "reduced": false
+          }
+        ],
+        "entropy_nats": {
+          "n": 30,
+          "mean": 2.7473798804175282,
+          "median": 2.7582604065964906,
+          "p95": 2.8087273959193673
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0.001626582",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0.001626582",
+          "requests": 30,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "random_baseline",
+        "name": "Random baseline (free)",
+        "baseline": true,
+        "planned": 100,
+        "eligible": 100,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 100
+        },
+        "solved": 0,
+        "denominator": 100,
+        "success_rate": 0.0,
+        "wilson_95": [
+          3.469446951953614e-18,
+          0.03699349820698568
+        ],
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 100,
+          "mean": 30,
+          "median": 30.0,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 100
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 14.22,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0
+        }
+      }
+    ],
+    "primary": [
+      {
+        "model_id": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "openai/gpt-6-luna-decisions",
+        "name": "GPT-6 Luna Decisions",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "cloudflare/clef",
+        "name": "Clef",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "random_baseline",
+        "name": "Random baseline (free)",
+        "baseline": true,
+        "planned": 1000,
+        "eligible": 1000,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 1000
+        },
+        "solved": 0,
+        "denominator": 1000,
+        "success_rate": 0.0,
+        "wilson_95": [
+          2.168404344971009e-19,
+          0.0038267584855551234
+        ],
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 1000,
+          "mean": 30,
+          "median": 30.0,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 1000
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 14.242,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0
+        }
+      }
+    ],
+    "extension": [
+      {
+        "model_id": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "openai/gpt-6-luna-decisions",
+        "name": "GPT-6 Luna Decisions",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "cloudflare/clef",
+        "name": "Clef",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "baseline": false,
+        "planned": 0,
+        "eligible": 0,
+        "statuses": {},
+        "solved": 0,
+        "denominator": 0,
+        "success_rate": null,
+        "wilson_95": null,
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {},
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": null,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0,
+          "cost_source": "usage.cost"
+        }
+      },
+      {
+        "model_id": "random_baseline",
+        "name": "Random baseline (free)",
+        "baseline": true,
+        "planned": 500,
+        "eligible": 500,
+        "statuses": {
+          "RAN_OUT_OF_MOVES": 500
+        },
+        "solved": 0,
+        "denominator": 500,
+        "success_rate": 0.0,
+        "wilson_95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "decision_latency_ms": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "solved_total_s": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "moves_all": {
+          "n": 500,
+          "mean": 30,
+          "median": 30.0,
+          "p95": 30
+        },
+        "moves_solved": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "move_histogram": {
+          "30": 500
+        },
+        "gap": {
+          "mean": null,
+          "minimum": null,
+          "zero": 0,
+          "histogram": {}
+        },
+        "correct_stickers_mean": 14.102,
+        "refusals": 0,
+        "forfeits": 0,
+        "invalid_outputs": 0,
+        "retries": 0,
+        "progress": {
+          "known": 0,
+          "reduced": 0,
+          "no_progress": 0,
+          "on_optimal_path_rate": null,
+          "unknown": 0
+        },
+        "immediate_inverses": {
+          "count": 0,
+          "pairs": 0,
+          "rate": null
+        },
+        "confidence_progress": [],
+        "entropy_nats": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "extension_reference": [
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-001",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-002",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-003",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-004",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          },
+          {
+            "puzzle_id": "extension-005",
+            "moves": 30,
+            "status": "RAN_OUT_OF_MOVES",
+            "reference_upper_bound": null
+          }
+        ],
+        "cost": {
+          "known_cost_usd": "0",
+          "unknown_cost_attempts": 0,
+          "cost_usd": "0",
+          "requests": 0
+        }
+      }
+    ]
+  },
+  "accounting": {
+    "total": {
+      "requests": 120,
+      "known_cost_usd": "0.027262678",
+      "unknown_cost_attempts": 27,
+      "cost_usd": null,
+      "unknown_cost_holds_usd": "2.7"
+    },
+    "by_model": {
+      "typesafe/jev-1.13": {
+        "requests": 35,
+        "known_cost_usd": "0.00176001",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.00176001",
+        "unknown_cost_holds_usd": "0"
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 44,
+        "known_cost_usd": "0.0016748",
+        "unknown_cost_attempts": 22,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "2.2"
+      },
+      "cloudflare/clef": {
+        "requests": 35,
+        "known_cost_usd": "0.001835868",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.001835868",
+        "unknown_cost_holds_usd": "0"
+      },
+      "anthropic/claude-opus-5.5": {
+        "requests": 6,
+        "known_cost_usd": "0.021992",
+        "unknown_cost_attempts": 5,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.5"
+      }
+    },
+    "by_run": {
+      "b36abd523b1f492241fbf6879006d22d": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      },
+      "historical": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3-smoke-001": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "by_suite": {
+      "diagnostic": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3_smoke": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      },
+      "warmup": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      }
+    },
+    "not_run": []
+  },
+  "simulated_runs_excluded": 5,
+  "baseline_available": true,
+  "live_runs": [
+    {
+      "run_id": "b36abd523b1f492241fbf6879006d22d",
+      "suite": "warmup",
+      "mode": "LIVE",
+      "stage": {
+        "name": "W",
+        "suite": "warmup",
+        "puzzle_ids": [
+          "warmup-001"
+        ],
+        "models": [
+          "typesafe/jev-1.13",
+          "openai/gpt-6-luna-decisions",
+          "cloudflare/clef"
+        ],
+        "request_cap": 100
+      },
+      "status": "COMPLETED",
+      "model_ids": [
+        "typesafe/jev-1.13",
+        "openai/gpt-6-luna-decisions",
+        "cloudflare/clef"
+      ]
+    }
+  ]
+}

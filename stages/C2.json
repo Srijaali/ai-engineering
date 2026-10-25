@@ -1,0 +1,14 @@
+{
+  "name": "C2",
+  "suite": "primary",
+  "puzzle_ids": [
+    "primary-002"
+  ],
+  "models": [
+    "typesafe/jev-1.13",
+    "openai/gpt-6-luna-decisions",
+    "cloudflare/clef",
+    "anthropic/claude-opus-5.5"
+  ],
+  "request_cap": 240
+}

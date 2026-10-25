@@ -1,0 +1,67 @@
+{
+  "phase": 0,
+  "timestamp_utc": "2026-10-24T17:30:19.940675+00:00",
+  "model_id": "anthropic/claude-opus-5.5",
+  "http_status": 402,
+  "resolved_model": null,
+  "provider": null,
+  "cost_usd": null,
+  "usage_cost": null,
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "request_file": "docs/verification/ladder-20261024-next-opus.request.json",
+  "request_body_sha256": "37fc733c95d5ebeff7111e18118be04c3dd7dd13dca374408e6af0e5c69e5cf2",
+  "max_spend_usd": "5",
+  "local_request_reserve_usd": "0.045624",
+  "reserve_limitation": "Uses prior verified price snapshot and known reported charges; not account/invoice reconciliation",
+  "latency_ms": 1655.2530839999235,
+  "response": {
+    "error": {
+      "message": "This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 133. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit",
+      "code": 402,
+      "metadata": {
+        "limit_source": "openrouter_credits",
+        "remedy_hint": "Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.",
+        "provider_name": null,
+        "previous_errors": [
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 133. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          },
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 133. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          },
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 2000 tokens, but can only afford 133. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          }
+        ]
+      }
+    },
+    "user_id": "[REDACTED_ACCOUNT_ID]"
+  },
+  "response_shape": {
+    "error": {
+      "message": "str",
+      "code": "int",
+      "metadata": {
+        "limit_source": "str",
+        "remedy_hint": "str",
+        "provider_name": "NoneType",
+        "previous_errors": [
+          {
+            "code": "int",
+            "message": "str"
+          }
+        ]
+      }
+    },
+    "user_id": "str"
+  },
+  "structured_output_parsed": false,
+  "valid": false,
+  "reasoning_tokens": null,
+  "finish_reason": null
+}

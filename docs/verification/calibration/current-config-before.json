@@ -1,0 +1,17 @@
+{
+  "owner": "Rijaa",
+  "status": "tentative_pending_calibration",
+  "config_snapshot": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1024,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "env_sha256": "ad47d11756d8f95564d21650b49579a4300239d2fb2087c7a0ac42451bea2cc3",
+  "prompt_sha256": "3e7ff24418896eb11574e2ce6358bb63b8ade0a66be6b259a6f411009a4187dd"
+}

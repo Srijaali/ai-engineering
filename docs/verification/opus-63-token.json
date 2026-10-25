@@ -1,0 +1,66 @@
+{
+  "phase": 0,
+  "timestamp_utc": "2026-10-24T18:40:28.523461+00:00",
+  "model_id": "anthropic/claude-opus-5.5",
+  "endpoint": "/api/v1/chat/completions",
+  "max_tokens": 63,
+  "benchmark_data": false,
+  "attempts": 1,
+  "retries": 0,
+  "reservation_usd": ".25",
+  "request_body_sha256": "4f312eb67df3f18d71a18c81c41168e21646b140c1a7734a498b38a18eadfe4a",
+  "http_status": 402,
+  "latency_ms": 283.7096660005045,
+  "response": {
+    "error": {
+      "message": "This request requires more credits, or fewer max_tokens. You requested up to 63 tokens, but can only afford 45. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit",
+      "code": 402,
+      "metadata": {
+        "limit_source": "openrouter_credits",
+        "remedy_hint": "Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.",
+        "provider_name": null,
+        "previous_errors": [
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 63 tokens, but can only afford 45. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          },
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 63 tokens, but can only afford 45. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          },
+          {
+            "code": 402,
+            "message": "This request requires more credits, or fewer max_tokens. You requested up to 63 tokens, but can only afford 45. To increase, visit https://openrouter.ai/workspaces/default/keys/[REDACTED_KEY_ID] and adjust the key's total limit"
+          }
+        ]
+      }
+    },
+    "user_id": "[REDACTED_ACCOUNT_ID]"
+  },
+  "response_shape": {
+    "error": {
+      "message": "str",
+      "code": "int",
+      "metadata": {
+        "limit_source": "str",
+        "remedy_hint": "str",
+        "provider_name": "NoneType",
+        "previous_errors": [
+          {
+            "code": "int",
+            "message": "str"
+          }
+        ]
+      }
+    },
+    "user_id": "[REDACTED_ACCOUNT_ID]"
+  },
+  "resolved_model": null,
+  "provider": null,
+  "cost_usd": null,
+  "reasoning_tokens": null,
+  "finish_reason": null,
+  "structured_output_parsed": false,
+  "valid": false,
+  "move": null
+}

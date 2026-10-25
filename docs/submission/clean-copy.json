@@ -1,0 +1,8 @@
+{
+  "path": "/private/tmp/rubiks-clean-submission-tq0u_q4n",
+  "copied_files": 242,
+  "method": "git ls-files --cached --others --exclude-standard; skip missing tracked paths",
+  "env_copied": false,
+  "venv_copied": false,
+  "cache_copied": false
+}

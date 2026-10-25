@@ -1,0 +1,163 @@
+[
+  {
+    "element": "body/background",
+    "foreground": "#2E2422",
+    "background": "#F8E3D3",
+    "ratio": 12.158,
+    "passes": true
+  },
+  {
+    "element": "body/surface",
+    "foreground": "#2E2422",
+    "background": "#FFF7F0",
+    "ratio": 14.239,
+    "passes": true
+  },
+  {
+    "element": "muted/background",
+    "foreground": "#6B5B55",
+    "background": "#F8E3D3",
+    "ratio": 5.202,
+    "passes": true
+  },
+  {
+    "element": "muted/surface",
+    "foreground": "#6B5B55",
+    "background": "#FFF7F0",
+    "ratio": 6.092,
+    "passes": true
+  },
+  {
+    "element": "identity and selected toggle",
+    "foreground": "#FFF7F0",
+    "background": "#2E2422",
+    "ratio": 14.239,
+    "passes": true
+  },
+  {
+    "element": "missing identity",
+    "foreground": "#FFFFFF",
+    "background": "#A4262C",
+    "ratio": 7.261,
+    "passes": true
+  },
+  {
+    "element": "baseline muted",
+    "foreground": "#6B5B55",
+    "background": "#F1E8E0",
+    "ratio": 5.337,
+    "passes": true
+  },
+  {
+    "element": "disabled control",
+    "foreground": "#6B5B55",
+    "background": "#E9DCD2",
+    "ratio": 4.806,
+    "passes": true
+  },
+  {
+    "element": "mustard fill",
+    "foreground": "#2E2422",
+    "background": "#F3B95F",
+    "ratio": 8.563,
+    "passes": true
+  },
+  {
+    "element": "coral fill",
+    "foreground": "#2E2422",
+    "background": "#EE8259",
+    "ratio": 5.729,
+    "passes": true
+  },
+  {
+    "element": "teal fill",
+    "foreground": "#2E2422",
+    "background": "#79BCB0",
+    "ratio": 6.922,
+    "passes": true
+  },
+  {
+    "element": "gold",
+    "foreground": "#2E2422",
+    "background": "#EBC56C",
+    "ratio": 9.152,
+    "passes": true
+  },
+  {
+    "element": "silver",
+    "foreground": "#2E2422",
+    "background": "#D8DCDF",
+    "ratio": 10.939,
+    "passes": true
+  },
+  {
+    "element": "bronze",
+    "foreground": "#2E2422",
+    "background": "#DCA786",
+    "ratio": 7.125,
+    "passes": true
+  },
+  {
+    "element": "grey",
+    "foreground": "#2E2422",
+    "background": "#D6D0CA",
+    "ratio": 9.869,
+    "passes": true
+  },
+  {
+    "element": "success metric",
+    "foreground": "#2E2422",
+    "background": "#F5E4CE",
+    "ratio": 12.123,
+    "passes": true
+  },
+  {
+    "element": "gap metric",
+    "foreground": "#2E2422",
+    "background": "#E7EFE5",
+    "ratio": 12.845,
+    "passes": true
+  },
+  {
+    "element": "sticker U",
+    "foreground": "#2E2422",
+    "background": "#FFFFFF",
+    "ratio": 15.09,
+    "passes": true
+  },
+  {
+    "element": "sticker R",
+    "foreground": "#2E2422",
+    "background": "#E97979",
+    "ratio": 5.372,
+    "passes": true
+  },
+  {
+    "element": "sticker F",
+    "foreground": "#2E2422",
+    "background": "#8BC49A",
+    "ratio": 7.517,
+    "passes": true
+  },
+  {
+    "element": "sticker D",
+    "foreground": "#2E2422",
+    "background": "#F7DB72",
+    "ratio": 11.016,
+    "passes": true
+  },
+  {
+    "element": "sticker L",
+    "foreground": "#2E2422",
+    "background": "#F4B064",
+    "ratio": 8.077,
+    "passes": true
+  },
+  {
+    "element": "sticker B",
+    "foreground": "#2E2422",
+    "background": "#83ADE0",
+    "ratio": 6.481,
+    "passes": true
+  }
+]

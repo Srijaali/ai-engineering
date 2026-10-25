@@ -1,0 +1,36 @@
+{
+  "fixed_settings": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 3000,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "protected_files_byte_unchanged": [
+    "backend/app/prompts.py",
+    "backend/app/cube/engine.py",
+    "backend/app/cube/optimal.py",
+    "backend/app/cube/reference.py",
+    "backend/app/cube/puzzles.py",
+    "data/puzzles/primary.json",
+    "data/puzzles/warmup.json",
+    "data/puzzles/extension.json"
+  ],
+  "credential_scan": "PASS; current key absent outside ignored .env",
+  "paid_attempts_added": 0,
+  "accounting": {
+    "requests": 30,
+    "known_cost_usd": "0.022895124",
+    "unknown_cost_attempts": 12,
+    "cost_usd": null,
+    "unknown_cost_holds_usd": "1.2"
+  },
+  "git_head": "56e60a2",
+  "staged_files": 0,
+  "commits": 0,
+  "pushes": 0
+}

@@ -1,0 +1,71 @@
+{
+  "timestamp_utc": "2026-10-24T16:23:44.766422+00:00",
+  "phase": 0,
+  "calls": 3,
+  "n4_used": false,
+  "n4_reason": "N3 succeeded; conditional reserve not authorized to execute",
+  "retries": 0,
+  "benchmark_data": false,
+  "production_prompt_unchanged": true,
+  "representation_adopted": false,
+  "other_models_called": false,
+  "source_and_payload_checks": "PASS",
+  "net_test_count": 303,
+  "stages": {
+    "N1": {
+      "http_status": 200,
+      "latency_ms": 1512.3746660001416,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "usage_cost": 7.81e-05,
+      "choice": "U",
+      "confidence": 0.09,
+      "probability_count": 18,
+      "scramble": [
+        "R",
+        "U",
+        "F'",
+        "L2"
+      ],
+      "selection": null
+    },
+    "N2": {
+      "http_status": 200,
+      "latency_ms": 1261.5331659999356,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "usage_cost": 8.06e-05,
+      "choice": "U",
+      "confidence": 0.09,
+      "probability_count": 18,
+      "scramble": [
+        "R",
+        "U",
+        "F'",
+        "L2"
+      ],
+      "selection": null
+    },
+    "N3": {
+      "http_status": 200,
+      "latency_ms": 1389.6269159995427,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "usage_cost": 7.83e-05,
+      "choice": "U",
+      "confidence": 0.09,
+      "probability_count": 18,
+      "scramble": [
+        "F",
+        "R",
+        "U'",
+        "B2"
+      ],
+      "selection": {
+        "candidate": "N1",
+        "rule": "valid exact move first, then HTTP 200, then N1 simpler representation on ties; not latency"
+      }
+    }
+  },
+  "reported_cost_sum_usd": "0.0002370"
+}

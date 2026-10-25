@@ -1,0 +1,152 @@
+{
+  "phase": 0,
+  "timestamp_utc": "20261024T152011789324Z",
+  "benchmark_data": false,
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "shared_request_fields": {
+    "state": {
+      "facelets": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+      "facelet_order": "URFDLB",
+      "recent_moves": [],
+      "moves_used": 0,
+      "moves_remaining": 30
+    },
+    "questions": {
+      "next_move": {
+        "type": "choice",
+        "instructions": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move.\nChoose the single next move most likely to progress toward the solved cube.",
+        "criteria": {
+          "U": "Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.",
+          "U'": "Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "U2": "Turn the upper face by 180 degrees, viewed directly from outside that face.",
+          "D": "Turn the down face clockwise by 90 degrees, viewed directly from outside that face.",
+          "D'": "Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "D2": "Turn the down face by 180 degrees, viewed directly from outside that face.",
+          "L": "Turn the left face clockwise by 90 degrees, viewed directly from outside that face.",
+          "L'": "Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "L2": "Turn the left face by 180 degrees, viewed directly from outside that face.",
+          "R": "Turn the right face clockwise by 90 degrees, viewed directly from outside that face.",
+          "R'": "Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "R2": "Turn the right face by 180 degrees, viewed directly from outside that face.",
+          "F": "Turn the front face clockwise by 90 degrees, viewed directly from outside that face.",
+          "F'": "Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "F2": "Turn the front face by 180 degrees, viewed directly from outside that face.",
+          "B": "Turn the back face clockwise by 90 degrees, viewed directly from outside that face.",
+          "B'": "Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "B2": "Turn the back face by 180 degrees, viewed directly from outside that face."
+        }
+      }
+    }
+  },
+  "calls": [
+    {
+      "model_id": "typesafe/jev-1.13",
+      "http_status": 200,
+      "latency_ms": 1438.8060000001133,
+      "resolved_model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage_cost": 4.599e-05,
+      "confidence_present": true,
+      "probabilities_present": true,
+      "response_shape": {
+        "model": "str",
+        "answers": {
+          "next_move": {
+            "type": "str",
+            "choice": "str",
+            "probabilities": {
+              "U": "float",
+              "U'": "float",
+              "U2": "float",
+              "D": "float",
+              "D'": "int",
+              "D2": "float",
+              "L": "float",
+              "L'": "float",
+              "L2": "float",
+              "R": "float",
+              "R'": "float",
+              "R2": "float",
+              "F": "float",
+              "F'": "float",
+              "F2": "float",
+              "B": "float",
+              "B'": "int",
+              "B2": "int"
+            },
+            "confidence": "float"
+          }
+        },
+        "usage": {
+          "input_tokens": "int",
+          "output_tokens": "int",
+          "cost": "float"
+        },
+        "id": "str",
+        "provider": "str"
+      },
+      "response": {
+        "model": "typesafe/jev-1.13-20260917",
+        "answers": {
+          "next_move": {
+            "type": "choice",
+            "choice": "U",
+            "probabilities": {
+              "U": 0.76,
+              "U'": 0.03,
+              "U2": 0.03,
+              "D": 0.01,
+              "D'": 0,
+              "D2": 0.01,
+              "L": 0.02,
+              "L'": 0.01,
+              "L2": 0.01,
+              "R": 0.03,
+              "R'": 0.01,
+              "R2": 0.01,
+              "F": 0.04,
+              "F'": 0.01,
+              "F2": 0.01,
+              "B": 0.01,
+              "B'": 0,
+              "B2": 0
+            },
+            "confidence": 0.75
+          }
+        },
+        "usage": {
+          "input_tokens": 1095,
+          "output_tokens": 156,
+          "cost": 4.599e-05
+        },
+        "id": "gen-dec-1792855213-ZcthR1DulwyWptylGHyb",
+        "provider": "TypeSafe"
+      }
+    },
+    {
+      "model_id": "openai/gpt-6-luna-decisions",
+      "http_status": 502,
+      "latency_ms": 801.6285829999106,
+      "resolved_model": null,
+      "provider": null,
+      "usage_cost": null,
+      "confidence_present": false,
+      "probabilities_present": false,
+      "response_shape": {
+        "error": {
+          "message": "str",
+          "code": "int"
+        }
+      },
+      "response": {
+        "error": {
+          "message": "OpenAI refused to answer question \"next_move\"",
+          "code": 502
+        }
+      }
+    }
+  ],
+  "retries": 0,
+  "opus_probed": false,
+  "stopped_reason": "HTTP 502; no retries or remaining model calls"
+}

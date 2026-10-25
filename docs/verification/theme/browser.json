@@ -1,0 +1,19 @@
+{
+  "replay_outbound_requests": 0,
+  "local_requests_also_zero": true,
+  "external_http_client": "disabled; raises on use",
+  "api_key": "empty in isolated test server",
+  "resolutions": [
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "four_cards_visible": true,
+  "cube_net_sticker_agreement": true,
+  "paid_calls": 0
+}

@@ -1,0 +1,61 @@
+{
+  "completed_phase": 2,
+  "timestamp_utc": "2026-10-24T16:42:56.581094+00:00",
+  "bfs": {
+    "counts": [
+      1,
+      18,
+      243,
+      3240,
+      43239,
+      574908
+    ],
+    "total_states": 621649,
+    "search_time_s": 1.679019750000407,
+    "cache_write_time_s": 3.6586758339999506,
+    "total_build_time_s": 5.3376955840003575,
+    "peak_process_rss_bytes": 190840832,
+    "estimated_retained_table_bytes": 85001619,
+    "compressed_bytes": 9921966,
+    "cache_file": "/Users/syedarijaali/Desktop/sem7/ai eng/ai-engineering/data/cache/htm-depth5-v1.pkl.gz",
+    "engine_fingerprint": "8ee0849af4f7167d0f3f5d05b2b7d5b67bdf5620084d9ffcb0ab4b63539adff4",
+    "memory_definition": "RSS is whole-process high-water during search/write; retained estimate counts dict, string keys and shared depth integers"
+  },
+  "master_seed": 20261024,
+  "independent_checks": 13,
+  "suite_sizes": {
+    "warmup": 3,
+    "primary": 10,
+    "extension": 5
+  },
+  "cli_byte_identical": true,
+  "tests": 395,
+  "test_duration_s": 2.688,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "phase2_api_calls": 0,
+  "part0_failure": "Luna HTTP 502 explicit refusal; no retry/troubleshooting",
+  "max_spend_usd": 5,
+  "opus_allowed": false,
+  "design_deviations": [],
+  "source_sha256": {
+    "backend/app/prompts.py": "3e7ff24418896eb11574e2ce6358bb63b8ade0a66be6b259a6f411009a4187dd",
+    "backend/app/config.py": "5ffe563621f8d20b40b1ca842c5a3e9b663c394f1a678bc800191e5a4cae7dca",
+    "backend/app/cube/engine.py": "05f042fd8d4909e91dd574caa8c5ab73fde5a279428172e6d5b90b2167af7370",
+    "backend/app/cube/optimal.py": "0a4c46702c1abcb15196653e5afcc780ee2f3c2cfbc370855838ef454a78d2fb",
+    "backend/app/cube/reference.py": "40036e3976a8f8570fa18e39ee1eba1a62d129489b0f46ba062ffb10111dd138",
+    "backend/app/cube/puzzles.py": "96ce260b5483f34a69067111d7ab65b959a0520c9a3fb411cc84e563b92ac32f",
+    "scripts/build_bfs.py": "e2d0f8d31aca4677fc793a0e5f502c43c0be47563b7d6c2358415790be9d2201",
+    "scripts/make_puzzles.py": "344e0f90d718146e4fdcb06541398501b94caffd717ac435bcfbcad8fbe66e67",
+    "scripts/cost_report.py": "1b51b9e0c75fb0cd718e8b5fa5040988543ac295f3965f43e7c41fbeb492f0f6"
+  },
+  "final_checks": {
+    "current_key_exact_value_scan": "PASS",
+    "source_hashes": "PASS",
+    "flow_check": "PASS",
+    "git_diff_check": "PASS",
+    "cache_and_env_ignored": "PASS",
+    "history_scan": "deferred to required Phase 8"
+  }
+}

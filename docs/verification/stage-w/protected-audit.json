@@ -1,0 +1,22 @@
+{
+  "protected_files_unchanged": [
+    "backend/app/prompts.py",
+    "backend/app/config.py",
+    ".env",
+    ".env.example",
+    "backend/app/stats.py",
+    "backend/app/cube/puzzles.py",
+    "backend/app/cube/__init__.py",
+    "backend/app/cube/engine.py",
+    "backend/app/cube/reference.py",
+    "backend/app/cube/optimal.py",
+    "backend/app/models/decisions_client.py",
+    "backend/app/models/registry.py",
+    "backend/app/models/__init__.py",
+    "backend/app/models/chat_client.py",
+    "backend/app/models/mock_agent.py",
+    "backend/app/models/base.py"
+  ],
+  "elapsed_seconds": 394.620202,
+  "timebox_seconds": 2700
+}

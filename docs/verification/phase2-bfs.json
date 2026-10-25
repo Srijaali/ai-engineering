@@ -1,0 +1,20 @@
+{
+  "counts": [
+    1,
+    18,
+    243,
+    3240,
+    43239,
+    574908
+  ],
+  "total_states": 621649,
+  "search_time_s": 1.6822280839987798,
+  "cache_write_time_s": 3.6341875409998465,
+  "total_build_time_s": 5.316415624998626,
+  "peak_process_rss_bytes": 197558272,
+  "estimated_retained_table_bytes": 85001619,
+  "compressed_bytes": 9921966,
+  "cache_file": "/Users/syedarijaali/Desktop/sem7/ai eng/ai-engineering/data/cache/htm-depth5-v1.pkl.gz",
+  "engine_fingerprint": "8ee0849af4f7167d0f3f5d05b2b7d5b67bdf5620084d9ffcb0ab4b63539adff4",
+  "memory_definition": "RSS is whole-process high-water during search/write; retained estimate counts dict, string keys and shared depth integers"
+}

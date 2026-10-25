@@ -1,0 +1,607 @@
+[
+  {
+    "model_id": "typesafe/jev-1.13",
+    "move": "U",
+    "error_class": null,
+    "forfeited": false,
+    "status": "DECISION",
+    "confidence": 0.14,
+    "probabilities": {
+      "U": 0.19,
+      "U'": 0.08,
+      "U2": 0.09,
+      "D": 0.03,
+      "D'": 0.03,
+      "D2": 0.05,
+      "L": 0.04,
+      "L'": 0.03,
+      "L2": 0.04,
+      "R": 0.03,
+      "R'": 0.03,
+      "R2": 0.04,
+      "F": 0.11,
+      "F'": 0.08,
+      "F2": 0.09,
+      "B": 0.02,
+      "B'": 0.01,
+      "B2": 0.01
+    },
+    "attempts": [
+      {
+        "request_id": 27,
+        "timestamp_utc": "2026-10-24T23:10:01.921575+00:00",
+        "http_status": 200,
+        "resolved_model": "typesafe/jev-1.13-20260917",
+        "provider": "TypeSafe",
+        "error_class": null,
+        "permanent_failure": false,
+        "latency_ms": 1408.2457500007877,
+        "finish_reason": null,
+        "move": "U",
+        "retry_requested": false,
+        "retry_backoff_s": 0,
+        "retry_suppressed_by_allowance": false,
+        "retry_index": 0,
+        "config_snapshot": {
+          "claude_reasoning_effort": "low",
+          "claude_max_tokens": 1500,
+          "request_timeout_s": 120.0,
+          "run_budget_s": 600.0,
+          "max_transport_retries": 1,
+          "max_malformed_retries": 0,
+          "max_requests": 1000,
+          "max_spend_usd": 5.0,
+          "max_moves": 30
+        },
+        "observation": {
+          "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+          "facelet_order": "URFDLB",
+          "recent_moves": [],
+          "moves_used": 0,
+          "moves_remaining": 30,
+          "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+        },
+        "request_body": {
+          "model": "typesafe/jev-1.13",
+          "state": {
+            "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+            "facelet_order": "URFDLB",
+            "recent_moves": [],
+            "moves_used": 0,
+            "moves_remaining": 30,
+            "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+          },
+          "questions": {
+            "next_move": {
+              "type": "choice",
+              "instructions": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move. The net field shows the same cube state in unfolded form.\nChoose the single next move most likely to progress toward the solved cube.",
+              "criteria": {
+                "U": "Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.",
+                "U'": "Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "U2": "Turn the upper face by 180 degrees, viewed directly from outside that face.",
+                "D": "Turn the down face clockwise by 90 degrees, viewed directly from outside that face.",
+                "D'": "Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "D2": "Turn the down face by 180 degrees, viewed directly from outside that face.",
+                "L": "Turn the left face clockwise by 90 degrees, viewed directly from outside that face.",
+                "L'": "Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "L2": "Turn the left face by 180 degrees, viewed directly from outside that face.",
+                "R": "Turn the right face clockwise by 90 degrees, viewed directly from outside that face.",
+                "R'": "Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "R2": "Turn the right face by 180 degrees, viewed directly from outside that face.",
+                "F": "Turn the front face clockwise by 90 degrees, viewed directly from outside that face.",
+                "F'": "Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "F2": "Turn the front face by 180 degrees, viewed directly from outside that face.",
+                "B": "Turn the back face clockwise by 90 degrees, viewed directly from outside that face.",
+                "B'": "Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "B2": "Turn the back face by 180 degrees, viewed directly from outside that face."
+              }
+            }
+          }
+        },
+        "raw_response": {
+          "model": "typesafe/jev-1.13-20260917",
+          "answers": {
+            "next_move": {
+              "type": "choice",
+              "choice": "U",
+              "probabilities": {
+                "U": 0.19,
+                "U'": 0.08,
+                "U2": 0.09,
+                "D": 0.03,
+                "D'": 0.03,
+                "D2": 0.05,
+                "L": 0.04,
+                "L'": 0.03,
+                "L2": 0.04,
+                "R": 0.03,
+                "R'": 0.03,
+                "R2": 0.04,
+                "F": 0.11,
+                "F'": 0.08,
+                "F2": 0.09,
+                "B": 0.02,
+                "B'": 0.01,
+                "B2": 0.01
+              },
+              "confidence": 0.14
+            }
+          },
+          "usage": {
+            "input_tokens": 1183,
+            "output_tokens": 156,
+            "cost": 4.9686e-05
+          },
+          "id": "gen-dec-1792883401-d2PfSvPTCx7xlU22XSj6",
+          "provider": "TypeSafe"
+        },
+        "unparsed_response": null,
+        "cost_usd": "0.000049686",
+        "tokens_in": 1183,
+        "tokens_out": 156,
+        "reasoning_tokens": null,
+        "total_tokens": null
+      }
+    ],
+    "decision_latency_ms": 1411.4081250008894
+  },
+  {
+    "model_id": "openai/gpt-6-luna-decisions",
+    "move": "U",
+    "error_class": null,
+    "forfeited": false,
+    "status": "DECISION",
+    "confidence": 0.1,
+    "probabilities": {
+      "U": 0.15,
+      "U'": 0.05,
+      "U2": 0.06,
+      "D": 0.03,
+      "D'": 0.04,
+      "D2": 0.02,
+      "L": 0.07,
+      "L'": 0.03,
+      "L2": 0.05,
+      "R": 0.05,
+      "R'": 0.09,
+      "R2": 0.02,
+      "F": 0.12,
+      "F'": 0.07,
+      "F2": 0.05,
+      "B": 0.02,
+      "B'": 0.05,
+      "B2": 0.03
+    },
+    "attempts": [
+      {
+        "request_id": 28,
+        "timestamp_utc": "2026-10-24T23:10:03.251088+00:00",
+        "http_status": 200,
+        "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+        "provider": "OpenAI",
+        "error_class": null,
+        "permanent_failure": false,
+        "latency_ms": 1324.2877909979143,
+        "finish_reason": null,
+        "move": "U",
+        "retry_requested": false,
+        "retry_backoff_s": 0,
+        "retry_suppressed_by_allowance": false,
+        "retry_index": 0,
+        "config_snapshot": {
+          "claude_reasoning_effort": "low",
+          "claude_max_tokens": 1500,
+          "request_timeout_s": 120.0,
+          "run_budget_s": 600.0,
+          "max_transport_retries": 1,
+          "max_malformed_retries": 0,
+          "max_requests": 1000,
+          "max_spend_usd": 5.0,
+          "max_moves": 30
+        },
+        "observation": {
+          "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+          "facelet_order": "URFDLB",
+          "recent_moves": [],
+          "moves_used": 0,
+          "moves_remaining": 30,
+          "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+        },
+        "request_body": {
+          "model": "openai/gpt-6-luna-decisions",
+          "state": {
+            "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+            "facelet_order": "URFDLB",
+            "recent_moves": [],
+            "moves_used": 0,
+            "moves_remaining": 30,
+            "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+          },
+          "questions": {
+            "next_move": {
+              "type": "choice",
+              "instructions": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move. The net field shows the same cube state in unfolded form.\nChoose the single next move most likely to progress toward the solved cube.",
+              "criteria": {
+                "U": "Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.",
+                "U'": "Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "U2": "Turn the upper face by 180 degrees, viewed directly from outside that face.",
+                "D": "Turn the down face clockwise by 90 degrees, viewed directly from outside that face.",
+                "D'": "Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "D2": "Turn the down face by 180 degrees, viewed directly from outside that face.",
+                "L": "Turn the left face clockwise by 90 degrees, viewed directly from outside that face.",
+                "L'": "Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "L2": "Turn the left face by 180 degrees, viewed directly from outside that face.",
+                "R": "Turn the right face clockwise by 90 degrees, viewed directly from outside that face.",
+                "R'": "Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "R2": "Turn the right face by 180 degrees, viewed directly from outside that face.",
+                "F": "Turn the front face clockwise by 90 degrees, viewed directly from outside that face.",
+                "F'": "Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "F2": "Turn the front face by 180 degrees, viewed directly from outside that face.",
+                "B": "Turn the back face clockwise by 90 degrees, viewed directly from outside that face.",
+                "B'": "Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "B2": "Turn the back face by 180 degrees, viewed directly from outside that face."
+              }
+            }
+          }
+        },
+        "raw_response": {
+          "model": "openai/gpt-6-luna-decisions-20261006",
+          "answers": {
+            "next_move": {
+              "type": "choice",
+              "choice": "U",
+              "probabilities": {
+                "U": 0.15,
+                "U'": 0.05,
+                "U2": 0.06,
+                "D": 0.03,
+                "D'": 0.04,
+                "D2": 0.02,
+                "L": 0.07,
+                "L'": 0.03,
+                "L2": 0.05,
+                "R": 0.05,
+                "R'": 0.09,
+                "R2": 0.02,
+                "F": 0.12,
+                "F'": 0.07,
+                "F2": 0.05,
+                "B": 0.02,
+                "B'": 0.05,
+                "B2": 0.03
+              },
+              "confidence": 0.1
+            }
+          },
+          "usage": {
+            "input_tokens": 806,
+            "output_tokens": 0,
+            "cost": 8.06e-05
+          },
+          "id": "gen-dec-1792883402-2Yu5aKbFd4wi7xhVHxUY",
+          "provider": "OpenAI"
+        },
+        "unparsed_response": null,
+        "cost_usd": "0.0000806",
+        "tokens_in": 806,
+        "tokens_out": 0,
+        "reasoning_tokens": null,
+        "total_tokens": null
+      }
+    ],
+    "decision_latency_ms": 1326.0997910001606
+  },
+  {
+    "model_id": "cloudflare/clef",
+    "move": "U'",
+    "error_class": null,
+    "forfeited": false,
+    "status": "DECISION",
+    "confidence": 0.0468,
+    "probabilities": {
+      "U": 0.0686,
+      "U'": 0.0998,
+      "U2": 0.0615,
+      "D": 0.0397,
+      "D'": 0.0406,
+      "D2": 0.0443,
+      "L": 0.0385,
+      "L'": 0.0471,
+      "L2": 0.0443,
+      "R": 0.034,
+      "R'": 0.0665,
+      "R2": 0.0443,
+      "F": 0.0983,
+      "F'": 0.0983,
+      "F2": 0.0923,
+      "B": 0.026,
+      "B'": 0.0286,
+      "B2": 0.0273
+    },
+    "attempts": [
+      {
+        "request_id": 29,
+        "timestamp_utc": "2026-10-24T23:10:04.581093+00:00",
+        "http_status": 200,
+        "resolved_model": "cloudflare/clef",
+        "provider": "PrimeIntellect",
+        "error_class": null,
+        "permanent_failure": false,
+        "latency_ms": 1326.5244999965944,
+        "finish_reason": null,
+        "move": "U'",
+        "retry_requested": false,
+        "retry_backoff_s": 0,
+        "retry_suppressed_by_allowance": false,
+        "retry_index": 0,
+        "config_snapshot": {
+          "claude_reasoning_effort": "low",
+          "claude_max_tokens": 1500,
+          "request_timeout_s": 120.0,
+          "run_budget_s": 600.0,
+          "max_transport_retries": 1,
+          "max_malformed_retries": 0,
+          "max_requests": 1000,
+          "max_spend_usd": 5.0,
+          "max_moves": 30
+        },
+        "observation": {
+          "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+          "facelet_order": "URFDLB",
+          "recent_moves": [],
+          "moves_used": 0,
+          "moves_remaining": 30,
+          "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+        },
+        "request_body": {
+          "model": "cloudflare/clef",
+          "state": {
+            "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+            "facelet_order": "URFDLB",
+            "recent_moves": [],
+            "moves_used": 0,
+            "moves_remaining": 30,
+            "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+          },
+          "questions": {
+            "next_move": {
+              "type": "choice",
+              "instructions": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move. The net field shows the same cube state in unfolded form.\nChoose the single next move most likely to progress toward the solved cube.",
+              "criteria": {
+                "U": "Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.",
+                "U'": "Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "U2": "Turn the upper face by 180 degrees, viewed directly from outside that face.",
+                "D": "Turn the down face clockwise by 90 degrees, viewed directly from outside that face.",
+                "D'": "Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "D2": "Turn the down face by 180 degrees, viewed directly from outside that face.",
+                "L": "Turn the left face clockwise by 90 degrees, viewed directly from outside that face.",
+                "L'": "Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "L2": "Turn the left face by 180 degrees, viewed directly from outside that face.",
+                "R": "Turn the right face clockwise by 90 degrees, viewed directly from outside that face.",
+                "R'": "Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "R2": "Turn the right face by 180 degrees, viewed directly from outside that face.",
+                "F": "Turn the front face clockwise by 90 degrees, viewed directly from outside that face.",
+                "F'": "Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "F2": "Turn the front face by 180 degrees, viewed directly from outside that face.",
+                "B": "Turn the back face clockwise by 90 degrees, viewed directly from outside that face.",
+                "B'": "Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.",
+                "B2": "Turn the back face by 180 degrees, viewed directly from outside that face."
+              }
+            }
+          }
+        },
+        "raw_response": {
+          "model": "cloudflare/clef",
+          "answers": {
+            "next_move": {
+              "type": "choice",
+              "choice": "U'",
+              "probabilities": {
+                "U": 0.0686,
+                "U'": 0.0998,
+                "U2": 0.0615,
+                "D": 0.0397,
+                "D'": 0.0406,
+                "D2": 0.0443,
+                "L": 0.0385,
+                "L'": 0.0471,
+                "L2": 0.0443,
+                "R": 0.034,
+                "R'": 0.0665,
+                "R2": 0.0443,
+                "F": 0.0983,
+                "F'": 0.0983,
+                "F2": 0.0923,
+                "B": 0.026,
+                "B'": 0.0286,
+                "B2": 0.0273
+              },
+              "confidence": 0.0468
+            }
+          },
+          "usage": {
+            "input_tokens": 1031,
+            "output_tokens": 0,
+            "cost": 4.3302e-05
+          },
+          "id": "gen-dec-1792883403-H4GU7ryI3RpUGnXyjTXl",
+          "provider": "PrimeIntellect"
+        },
+        "unparsed_response": null,
+        "cost_usd": "0.000043302",
+        "tokens_in": 1031,
+        "tokens_out": 0,
+        "reasoning_tokens": null,
+        "total_tokens": null
+      }
+    ],
+    "decision_latency_ms": 1328.3496249969176
+  },
+  {
+    "model_id": "anthropic/claude-opus-5.5",
+    "move": "D2",
+    "error_class": null,
+    "forfeited": false,
+    "status": "DECISION",
+    "confidence": null,
+    "probabilities": null,
+    "attempts": [
+      {
+        "request_id": 30,
+        "timestamp_utc": "2026-10-24T23:10:20.543679+00:00",
+        "http_status": 200,
+        "resolved_model": "anthropic/claude-opus-5.5",
+        "provider": "Claude Platform on AWS",
+        "error_class": null,
+        "permanent_failure": false,
+        "latency_ms": 15958.489874999941,
+        "finish_reason": "stop",
+        "move": "D2",
+        "retry_requested": false,
+        "retry_backoff_s": 0,
+        "retry_suppressed_by_allowance": false,
+        "retry_index": 0,
+        "config_snapshot": {
+          "claude_reasoning_effort": "low",
+          "claude_max_tokens": 1500,
+          "request_timeout_s": 120.0,
+          "run_budget_s": 600.0,
+          "max_transport_retries": 1,
+          "max_malformed_retries": 0,
+          "max_requests": 1000,
+          "max_spend_usd": 5.0,
+          "max_moves": 30
+        },
+        "observation": {
+          "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+          "facelet_order": "URFDLB",
+          "recent_moves": [],
+          "moves_used": 0,
+          "moves_remaining": 30,
+          "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+        },
+        "request_body": {
+          "model": "anthropic/claude-opus-5.5",
+          "messages": [
+            {
+              "role": "system",
+              "content": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move. The net field shows the same cube state in unfolded form.\nChoose the single next move most likely to progress toward the solved cube.\nMove definitions: {\"U\": \"Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.\", \"U'\": \"Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"U2\": \"Turn the upper face by 180 degrees, viewed directly from outside that face.\", \"D\": \"Turn the down face clockwise by 90 degrees, viewed directly from outside that face.\", \"D'\": \"Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"D2\": \"Turn the down face by 180 degrees, viewed directly from outside that face.\", \"L\": \"Turn the left face clockwise by 90 degrees, viewed directly from outside that face.\", \"L'\": \"Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"L2\": \"Turn the left face by 180 degrees, viewed directly from outside that face.\", \"R\": \"Turn the right face clockwise by 90 degrees, viewed directly from outside that face.\", \"R'\": \"Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"R2\": \"Turn the right face by 180 degrees, viewed directly from outside that face.\", \"F\": \"Turn the front face clockwise by 90 degrees, viewed directly from outside that face.\", \"F'\": \"Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"F2\": \"Turn the front face by 180 degrees, viewed directly from outside that face.\", \"B\": \"Turn the back face clockwise by 90 degrees, viewed directly from outside that face.\", \"B'\": \"Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.\", \"B2\": \"Turn the back face by 180 degrees, viewed directly from outside that face.\"}\nReturn JSON with only the key move."
+            },
+            {
+              "role": "user",
+              "content": "{\"facelets\": \"FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU\", \"facelet_order\": \"URFDLB\", \"recent_moves\": [], \"moves_used\": 0, \"moves_remaining\": 30, \"net\": \"    U\\n    FUF\\n    FUF\\n    UUF\\nL   F   R   B\\nLLR BFD RRR UBU\\nLLR BFD RRR UBU\\nLLR BBB LLL FFU\\n    D\\n    DDD\\n    BDD\\n    BDD\"}"
+            }
+          ],
+          "reasoning": {
+            "effort": "low"
+          },
+          "max_tokens": 1500,
+          "provider": {
+            "require_parameters": true
+          },
+          "response_format": {
+            "type": "json_schema",
+            "json_schema": {
+              "name": "move",
+              "strict": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "move": {
+                    "type": "string",
+                    "enum": [
+                      "U",
+                      "U'",
+                      "U2",
+                      "D",
+                      "D'",
+                      "D2",
+                      "L",
+                      "L'",
+                      "L2",
+                      "R",
+                      "R'",
+                      "R2",
+                      "F",
+                      "F'",
+                      "F2",
+                      "B",
+                      "B'",
+                      "B2"
+                    ]
+                  }
+                },
+                "required": [
+                  "move"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "raw_response": {
+          "id": "gen-1792883405-3mNkvSRrGwqhREsmcXNX",
+          "object": "chat.completion",
+          "created": 1792883405,
+          "model": "anthropic/claude-opus-5.5",
+          "provider": "Claude Platform on AWS",
+          "system_fingerprint": null,
+          "service_tier": "default",
+          "choices": [
+            {
+              "index": 0,
+              "logprobs": null,
+              "finish_reason": "stop",
+              "native_finish_reason": "end_turn",
+              "message": {
+                "role": "assistant",
+                "content": "{\"move\":\"D2\"}",
+                "refusal": null,
+                "reasoning": "I'm examining the face patterns for each layer, noting how R's bottom row and L's right column seem to shift together \u2014 that pattern looks like it could be the result of a D or R turn, so I'm trying to reconstruct a plausible scramble sequence from these clues.\n\nTesting D' mapping doesn't quite work either, leaving the bottom layers mismatched. D2 seems like the closest fit, so I'll go with that as my best guess.\n\n",
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I'm examining the face patterns for each layer, noting how R's bottom row and L's right column seem to shift together \u2014 that pattern looks like it could be the result of a D or R turn, so I'm trying to reconstruct a plausible scramble sequence from these clues.\n\nTesting D' mapping doesn't quite work either, leaving the bottom layers mismatched. D2 seems like the closest fit, so I'll go with that as my best guess.\n\n",
+                    "format": "anthropic-claude-v1",
+                    "index": 0,
+                    "signature": "CAQSxBEKEAgTGAI4AUIIdGhpbmtpbmcSDJlO8J6ZJ0IGtWnlfBoMZp5DvkpduU094voXIjDtwHPPP87oeI1nf/fD69tyZ6IvEKj8gvSLsKW1CrhMMMuqzv/QAFHQ0yjfBM7q5WYq4RBQiBXGE+UBJo7kneQNr5hoca4zXL5QOc7j34M0CWsMsmGz/PQTRh6PSWo8rOYmjinrnQqKZjo7fykhL73tS0MSYZtBqLjckDe7uoO/SE3gd0UiQvifBqwjnOPYu/re/+o/lUpN5kVXW2TutTTXbwu4qevyAYoUbo8MQ4bnltbseNtiV7qeR58B9EE4nczKO3qSoE8vP8sA5zpOB4nIqO5TbRzi7yNq8q3zhXLS4zD2qD+SeNwSFjgf7tu9kbRyY1XhbhdnR9qORjnl0u4Jv/SktKGLodIw7IDLAdjH4+FR0IWBAekbXe8WMt8RvFs7yLX5ayRM4OQR2ZTcpBPLppEu0yhhPgzw25dJpMgE0WoGt/y7eGu8PVrqYB2pumE/LMn525G1JpoepCnZApMcSEFuClymfdw8LC5vFTfoXHHIUy7COcgOr65krtTz9zCc5mH8nrTdYTRNwUMwu5NpgSHtAlMEYTIyDS29fVFDbhPhKykO+81FkC8qxnN0TBcHyhQOVytHBd7WVJyq0ifomKnlynS16byU72z9xVMExtIDcPRKmJ3qfJHU60DYmoDvETX1x3xdxw9nsmm0h/uX1fwPbqMvEghCQPDG8GrIO2SqW8mvv0MlpuZXaEmL9yJeq6XzdT6gj0Ss6LGzDia7/eVdpC/QjHTJzGM9jQk2qP8NjiKnPOcPTQLpvbYn9SAIWSPWarCIOpMM864VsrTiJ58xNbZQg20sBMqBAQ62zZpPkj32dshmQmXkd8IEZlqtKXIkWu2PkjFmLnHwci9cpw0Hv23MpOVmtIZKuX7vkionjzu7UGqC5bHuTjYn/c0K5vcloOomc/KbfwROXbCEX+6x7YK9QvZvsXVof4gaXw9zDtGCjb4ChlUzy4yB+zvejkjlgemYywp1AVV/Ah1zFGb/fRYc+LAJxMGoAZ2XLoe6ZXwdZMYM2QFktGOTNX2GJ8JlajVDd/N0dnYJR1SdxDVChlFnAxElxQeL8wxKuZfI0ZYWf4KfK2xDXJ5iGQ3x2WTmONa5EgtAR6LobTLdUX5H20CK49+DXvpLpl23uM/UVMrwwOObsn38Jl/eASgDRLx954TfeMRJYaJju00HgQqaxW7TTRJ2JXjzgWH43y8WFN6k+blqjYgiDsYNAO8HESOs0u/NTnXmcwkpWF2JYCJ9Tp0g/0E4UtB8C6YrGcJDNBN5wnb45RriWEV0Hr4advI1pUQhHKC8ThzkWbchoInFi7l83TC93tqwNPqz61Zan++2ySSIuchgPCdpL70RXzTjXmwQgnwYUtV8GqkZUxhp6L15rHgPk8/WEPoSGLIae9Ni7E/lTynxzcJ2u16N5GfEagg/47sagANOUk9K7RspbMpRIPcAdKCyYOKrU0MmLjHv6R7ZrN1bAhiHRUgOAvE4dECLLEguqbOgamv9/azzeyeo6/45R5zBbFNhgCuF74q3oayggP/nf8aNuxk/elR5TXG5pvLslNt2qgTQHgFbu6b6/3NodwHL9MMLw4g4eTTXXwXeIv7WoY7ESLw0mUgSZnTAOY6gQzwCZEuk+JL2JDOGalIWZeyDkq9FKzCP1YX0MxJR9b8h1pE7B8//hScXWetGN46Ai3QX7rp6n/mgPk7gCvqdSg5tq3ncyQvGjG0cAKKJj/J9Pu96H+IT6HMS0FFruxaura+QaF2JDeH8Madi2iG8Gi2cKs5T3PqEK0Wkj6xrsIFWRUE8CFemCoSuhcHdW3sYiLsCozkacwOxkznWlclIXf9tZnNyGfzKjMaAwwKwS7Wk6k4D/1DBYJaVW7W+Z2mtoVWpg4BaNpntY5PQmcqwKuLCKhhs99t9/mKGsAaM+Ya20w5EOIJCKmTImmJOI/4o9AtcyyKQm1tchTpoDMYuCEmzAiYMVNhgISmI3zW3BFLsoY1vZgf5T/KGaS1fYF9Z7cvyiudciDvYLptNI3dKUaGlC2uxoJVXglPntGlqRm9URJT/NuIufX15/VHXNCm5UN+CURUTmPocOWcv/qndbmeY4vV0rS1G6+CbjGpkQftR8ZVTPFFmGnXeU4wiSP7zAcANGoS3rHWjhGb3CuUixJwD5UAKqHdo2ZR0kGSsOZQ/H7nP6SCmE5z8oJyBxZ50B2lUMkCaV5ROlxJ/cAQ/o5w54FWiGSEvXLCKnFeTyXlHJNMU7oY162+vUWz3/UMkj2FbKp/8JYKVBCE8Ab9xooq+HIoMoh7pYwWFAc2VJ0uRgCMs/szBfUSEqOx95x3r/TDe8XjNdHQt6D2EFFWY7nOQzG3gCUgeYiMXFFTJrSPeIODs63H0idfhYcIpfqAaPIc6QsDMsdby3+gMYcXjz63/Zb6S1aDM0V+7V0XHVV2GAbZ/eMklztTfhgaqLYIvzaYLJgi/BUY3iMHw6Uxn/pYo2CIDaaTxxuEWV2AUI5dHEqdh2ESWT/WXFROlZthcSe5M/baUB2sTBJdYCawpwULWoBiSw5o5+6XZd40MlqekVYo7cMJn86fs3BEWx4+ak7nNJ9jWXGLPYaGRZNkE0CNtO1Voqf1U1VXHTKqnRWNbOHLBnln4qs7frw5sStI8MmlUJxUHSHhh5KIE/rpmAVrrmvY51K6SCJHJn6eR9JyQa6uzLQ98B3fhO+Blosj/G72C2IOO6WLMtTSLzAeNYt1eZZATbT+RzFJSvQvuHiqNeWWFkW7q6oy2BotFOVlJJL5sDvfKSqEs+/Y1T4DRshfH8upCYquEC3ZL2s4buKIcncWaMpqRyXCFyaWG9a2ACvQ0QkxR8BMAVLhkYovegHOFscUJvCWsQzMiyWqrlvmZ08vxi15bPZ9Arq+19makxZygORHE2fYUwH+h+oGIoorW0liORfcPRkcYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxjbGF1ZGUtb24tYXdzIn0"
+                  }
+                ]
+              }
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 1463,
+            "completion_tokens": 807,
+            "total_tokens": 2270,
+            "cost": 0.021992,
+            "is_byok": false,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0,
+              "video_tokens": 0
+            },
+            "cost_details": {
+              "upstream_inference_cost": 0.021992,
+              "upstream_inference_prompt_cost": 0.005852,
+              "upstream_inference_completions_cost": 0.01614
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 796,
+              "image_tokens": 0,
+              "audio_tokens": 0
+            }
+          }
+        },
+        "unparsed_response": null,
+        "cost_usd": "0.021992",
+        "tokens_in": 1463,
+        "tokens_out": 807,
+        "reasoning_tokens": 796,
+        "total_tokens": 2270
+      }
+    ],
+    "decision_latency_ms": 15964.412541998172
+  }
+]

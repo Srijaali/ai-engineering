@@ -1,0 +1,231 @@
+{
+  "groups": [
+    ".pytest_cache",
+    "backend/__pycache__",
+    "backend/app/__pycache__",
+    "backend/app/cube/__pycache__",
+    "backend/app/models/__pycache__",
+    "backend/tests/__pycache__",
+    "scripts/__pycache__",
+    "data/cache",
+    "data/results/BASELINE"
+  ],
+  "files": [
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/main.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/storage.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/benchmark.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/config.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/stages.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/stats.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/runner.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/env.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/prompts.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/analysis_scope.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/cube/__pycache__/optimal.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/cube/__pycache__/puzzles.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/cube/__pycache__/engine.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/cube/__pycache__/reference.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/cube/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/base.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/mock_agent.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/registry.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/decisions_client.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/chat_client.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/accounting.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/app/models/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_cost_report.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_prompts.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_reconciliation.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_phase2.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_engine.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_flow.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_sequence_accounting.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_c1.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_submission.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_opus_calibration.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_spend_config.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_cube_display.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_phase3.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_stages.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/test_phase456.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/conftest.cpython-310-pytest-9.1.1.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "backend/tests/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/make_readme_results.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/check_flow.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/cost_report.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/check_contrast.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/calibrate_opus.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/phase3_smoke.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "scripts/__pycache__/__init__.cpython-310.pyc",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "data/cache/htm-depth5-v1.pkl.gz",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    },
+    {
+      "path": "data/results/BASELINE/random.json",
+      "reason": "Recreated by final offline verification; reproducible and ignored"
+    }
+  ]
+}

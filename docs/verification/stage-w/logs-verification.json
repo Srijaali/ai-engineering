@@ -1,0 +1,99 @@
+{
+  "run_id": "b36abd523b1f492241fbf6879006d22d",
+  "mode": "LIVE",
+  "suite": "warmup",
+  "counts": {
+    "move_records": 90,
+    "run_records": 3
+  },
+  "stage": {
+    "name": "W",
+    "suite": "warmup",
+    "puzzle_ids": [
+      "warmup-001"
+    ],
+    "models": [
+      "typesafe/jev-1.13",
+      "openai/gpt-6-luna-decisions",
+      "cloudflare/clef"
+    ],
+    "request_cap": 100
+  },
+  "errors": [
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    },
+    {
+      "http_status": 502,
+      "error_class": "MODEL_REFUSAL",
+      "cost_usd": null
+    }
+  ]
+}

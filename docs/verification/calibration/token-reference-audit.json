@@ -1,0 +1,168 @@
+[
+  {
+    "path": "backend/app/benchmark.py",
+    "line_numbers": [
+      43,
+      64,
+      71
+    ],
+    "category": "Historical smoke provenance, calibration exception or recorded sample measurement; not the current default"
+  },
+  {
+    "path": "backend/app/models/accounting.py",
+    "line_numbers": [
+      99,
+      100
+    ],
+    "category": "Intentional calibration-only override/test"
+  },
+  {
+    "path": "backend/tests/test_opus_calibration.py",
+    "line_numbers": [
+      24,
+      41,
+      47,
+      67,
+      68,
+      69
+    ],
+    "category": "Intentional calibration-only override/test"
+  },
+  {
+    "path": "backend/tests/test_phase3.py",
+    "line_numbers": [
+      205,
+      209,
+      311,
+      313,
+      316,
+      317,
+      318
+    ],
+    "category": "Explicit historical/calibration/error fixtures; defaults checked at 1024"
+  },
+  {
+    "path": "scripts/calibrate_opus.py",
+    "line_numbers": [
+      47,
+      50,
+      63,
+      111
+    ],
+    "category": "Intentional calibration-only override/test"
+  },
+  {
+    "path": "docs/PHASE3_REVIEW.md",
+    "line_numbers": [
+      9,
+      24
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/PHASE456_REVIEW.md",
+    "line_numbers": [
+      7,
+      31,
+      33
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/verification/phase3/summary.json",
+    "line_numbers": [
+      59,
+      205,
+      351,
+      478,
+      510,
+      622
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/verification/phase3/smoke-results.json",
+    "line_numbers": [
+      47,
+      193,
+      339,
+      466,
+      498
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/verification/phase3/frozen-config.json",
+    "line_numbers": [
+      4
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/verification/phase456/primary5-plan.json",
+    "line_numbers": [
+      12,
+      31,
+      32,
+      39
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "docs/verification/phase456/integrity.json",
+    "line_numbers": [
+      4
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "README.md",
+    "line_numbers": [
+      38,
+      51,
+      84
+    ],
+    "category": "Historical smoke provenance, calibration exception or recorded sample measurement; not the current default"
+  },
+  {
+    "path": "flow.md",
+    "line_numbers": [
+      133,
+      135
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  },
+  {
+    "path": "decisions.md",
+    "line_numbers": [
+      1295,
+      1297,
+      1299,
+      1347,
+      1355,
+      1363,
+      1371,
+      1377,
+      1380,
+      1415,
+      1417,
+      1418,
+      1419,
+      1420,
+      1451,
+      1497,
+      1500,
+      1569,
+      1570,
+      1571,
+      1579,
+      1585,
+      1586,
+      1587,
+      1593,
+      1595,
+      1596
+    ],
+    "category": "Historical evidence/decision, explicit calibration artifact or documentation; preserve provenance"
+  }
+]

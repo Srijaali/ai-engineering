@@ -1,0 +1,90 @@
+{
+  "phase": 0,
+  "timestamp_utc": "20261024T153150135800Z",
+  "account_context": "user reports own account; new key loaded from .env",
+  "benchmark_data": false,
+  "previous_request_source": "docs/verification/decisions-direct-20261024T152058163666Z.json",
+  "shared_request_fields": {
+    "state": {
+      "facelets": "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB",
+      "facelet_order": "URFDLB",
+      "recent_moves": [],
+      "moves_used": 0,
+      "moves_remaining": 30
+    },
+    "questions": {
+      "next_move": {
+        "type": "choice",
+        "instructions": "The cube has 54 stickers in face order U R F D L B. Each face has 9 stickers, numbered 1 through 9 row-major as viewed directly from outside that face, using the Kociemba convention. The unfolded net has U above F, L F R B across, and D below F. Each sticker letter is the face/colour to which it belongs in the solved cube. Centres stay fixed. The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. Only the 18 listed face turns are allowed; each costs one move, including a half-turn. Whole-cube rotations are not allowed. Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining. Select exactly one listed move.\nChoose the single next move most likely to progress toward the solved cube.",
+        "criteria": {
+          "U": "Turn the upper face clockwise by 90 degrees, viewed directly from outside that face.",
+          "U'": "Turn the upper face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "U2": "Turn the upper face by 180 degrees, viewed directly from outside that face.",
+          "D": "Turn the down face clockwise by 90 degrees, viewed directly from outside that face.",
+          "D'": "Turn the down face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "D2": "Turn the down face by 180 degrees, viewed directly from outside that face.",
+          "L": "Turn the left face clockwise by 90 degrees, viewed directly from outside that face.",
+          "L'": "Turn the left face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "L2": "Turn the left face by 180 degrees, viewed directly from outside that face.",
+          "R": "Turn the right face clockwise by 90 degrees, viewed directly from outside that face.",
+          "R'": "Turn the right face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "R2": "Turn the right face by 180 degrees, viewed directly from outside that face.",
+          "F": "Turn the front face clockwise by 90 degrees, viewed directly from outside that face.",
+          "F'": "Turn the front face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "F2": "Turn the front face by 180 degrees, viewed directly from outside that face.",
+          "B": "Turn the back face clockwise by 90 degrees, viewed directly from outside that face.",
+          "B'": "Turn the back face counterclockwise by 90 degrees, viewed directly from outside that face.",
+          "B2": "Turn the back face by 180 degrees, viewed directly from outside that face."
+        }
+      }
+    }
+  },
+  "inference_attempts": 1,
+  "retries": 0,
+  "opus_probed": false,
+  "credits": {
+    "http_status": 200,
+    "latency_ms": 1125.8484169998155,
+    "data": {
+      "total_credits": 0,
+      "total_usage": 0
+    },
+    "response_shape": {
+      "data": {
+        "total_credits": "int",
+        "total_usage": "int"
+      }
+    }
+  },
+  "luna": {
+    "model_id": "openai/gpt-6-luna-decisions",
+    "http_status": 402,
+    "latency_ms": 480.5197499999849,
+    "resolved_model": null,
+    "provider": null,
+    "usage_cost": null,
+    "confidence_present": false,
+    "probabilities_present": false,
+    "response_shape": {
+      "error": {
+        "message": "str",
+        "code": "int",
+        "metadata": {
+          "limit_source": "str",
+          "remedy_hint": "str"
+        }
+      }
+    },
+    "response": {
+      "error": {
+        "message": "Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits",
+        "code": 402,
+        "metadata": {
+          "limit_source": "openrouter_credits",
+          "remedy_hint": "Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance."
+        }
+      }
+    }
+  },
+  "requested_checks_complete": true
+}

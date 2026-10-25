@@ -1,0 +1,60 @@
+{
+  "phase": 0,
+  "timestamp_utc": "20261024T155339633678Z",
+  "account_context": "user reports third key change and purchased credits",
+  "key_present": true,
+  "key_changed_independently_verified": null,
+  "key_comparison_limitation": "previous secret/suffix/fingerprint not retained",
+  "benchmark_data": false,
+  "original_payload_source": "docs/verification/decisions-direct-20261024T152011789324Z.json",
+  "request_file": "docs/verification/luna-key3-20261024T155339633678Z.request.json",
+  "request_body_sha256": "fa6a06cc616a9459d4a588ea3279ebaa12c93ccd4a9cd37b8ca1f06e72c49347",
+  "request_bytes_provenance": "original saved ordered payload + inspected original httpx 0.28.1 serializer; no historical on-wire capture",
+  "calls": [
+    {
+      "ordinal": 1,
+      "model_id": "openai/gpt-6-luna-decisions",
+      "request_body_sha256": "fa6a06cc616a9459d4a588ea3279ebaa12c93ccd4a9cd37b8ca1f06e72c49347",
+      "http_status": 502,
+      "latency_ms": 854.7807079994527,
+      "resolved_model": null,
+      "provider": null,
+      "usage_cost": null,
+      "response": {
+        "error": {
+          "message": "OpenAI refused to answer question \"next_move\"",
+          "code": 502
+        }
+      },
+      "response_shape": {
+        "error": {
+          "message": "str",
+          "code": "int"
+        }
+      }
+    }
+  ],
+  "retries": 0,
+  "other_models_probed": false,
+  "allowance_before": 5,
+  "credits": {
+    "http_status": 200,
+    "latency_ms": 1107.4482920002993,
+    "response": {
+      "data": {
+        "total_credits": 0,
+        "total_usage": 0.186138392
+      }
+    },
+    "response_shape": {
+      "data": {
+        "total_credits": "int",
+        "total_usage": "float"
+      }
+    },
+    "interpretation": "output only; zero does not prove unavailable funds"
+  },
+  "allowance_consumed": 1,
+  "allowance_remaining": 4,
+  "stopped_reason": "MODEL_REFUSAL: paste exact original payload and wait"
+}

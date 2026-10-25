@@ -1,0 +1,17 @@
+{
+  "phase0_reconstructed_payload_byte_equality_except_model": {
+    "typesafe/jev-1.13": true,
+    "cloudflare/clef": true
+  },
+  "historical_wire_capture_available": false,
+  "real_newline_count_in_decoded_instructions": 1,
+  "literal_backslash_n_count_in_decoded_instructions": 0,
+  "scramble": [
+    "R",
+    "U",
+    "F'",
+    "L2"
+  ],
+  "scrambled_facelets": "DUUDUUDRRBBBDRRDRRBDDBFFLFFULLUDBUDBFLLFLLFFFLLRUBRUBR",
+  "original_luna_payload_sha256": "fa6a06cc616a9459d4a588ea3279ebaa12c93ccd4a9cd37b8ca1f06e72c49347"
+}

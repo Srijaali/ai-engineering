@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+# Derived compressed BFS tables; rebuild with scripts/build_bfs.py.
+data/cache/
+.DS_Store
+*.egg-info/
+build/
+dist/
+tmp/
+# Durable private Phase 3 request/cost/consent ledger. Back up; never reset.
+data/results/phase3/
+# Private runtime race logs, simulated rehearsal logs, derived baseline and locks.
+# Real LIVE evidence is intentionally included for submission reproducibility.
+data/results/SIMULATED/
+data/results/BASELINE/
+data/results/.execution.lock
+data/results/.index.lock
+# Private, separately accounted pre-experiment inference records.
+data/results/CALIBRATION/
+
+venv/
+.envrc
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env.example
+flow.md
+decisions.md
+

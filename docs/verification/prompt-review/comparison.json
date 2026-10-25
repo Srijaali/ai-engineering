@@ -1,0 +1,60 @@
+{
+  "status": "PROPOSED_ONLY_NOT_APPLIED",
+  "paid_calls": 0,
+  "measured_tokens": null,
+  "savings_claim": "Character reduction only; token usage, billing savings and solving quality are unverified",
+  "current_settings": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1024,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 300.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 4.0,
+    "max_moves": 30
+  },
+  "observations_identical": true,
+  "metrics": [
+    {
+      "model_id": "typesafe/jev-1.13",
+      "current_request_chars": 2857,
+      "draft_request_chars": 1533,
+      "current_instruction_and_options_chars": 2455,
+      "draft_instruction_and_options_chars": 1131,
+      "current_chat_user_message_chars": null,
+      "saved_chars": 1324,
+      "input_character_reduction_percent": 46.3
+    },
+    {
+      "model_id": "openai/gpt-6-luna-decisions",
+      "current_request_chars": 2867,
+      "draft_request_chars": 1543,
+      "current_instruction_and_options_chars": 2455,
+      "draft_instruction_and_options_chars": 1131,
+      "current_chat_user_message_chars": null,
+      "saved_chars": 1324,
+      "input_character_reduction_percent": 46.2
+    },
+    {
+      "model_id": "cloudflare/clef",
+      "current_request_chars": 2855,
+      "draft_request_chars": 1531,
+      "current_instruction_and_options_chars": 2455,
+      "draft_instruction_and_options_chars": 1131,
+      "current_chat_user_message_chars": null,
+      "saved_chars": 1324,
+      "input_character_reduction_percent": 46.4
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5",
+      "current_request_chars": 3439,
+      "draft_request_chars": 2067,
+      "current_instruction_and_options_chars": 2545,
+      "draft_instruction_and_options_chars": 1173,
+      "current_chat_user_message_chars": 300,
+      "saved_chars": 1372,
+      "input_character_reduction_percent": 39.9
+    }
+  ]
+}

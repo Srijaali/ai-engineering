@@ -1,0 +1,99 @@
+{
+  "phase": 0,
+  "stage": "jev",
+  "timestamp_utc": "2026-10-24T16:30:10.960174+00:00",
+  "model_id": "typesafe/jev-1.13",
+  "scramble": [
+    "R",
+    "U",
+    "F'",
+    "L2"
+  ],
+  "request_file": "docs/verification/final-representation-jev.request.json",
+  "sha256": "d1fc425f0b67281d3c3aed043884d1ea1785cccfc4a8724160d71f6a04adaa67",
+  "http_status": 200,
+  "resolved_model": "typesafe/jev-1.13-20260917",
+  "provider": "TypeSafe",
+  "usage_cost": 4.9686e-05,
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "latency_ms": 1486.9766249994427,
+  "response": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "next_move": {
+        "type": "choice",
+        "choice": "U",
+        "probabilities": {
+          "U": 0.19,
+          "U'": 0.1,
+          "U2": 0.11,
+          "D": 0.04,
+          "D'": 0.03,
+          "D2": 0.04,
+          "L": 0.04,
+          "L'": 0.03,
+          "L2": 0.03,
+          "R": 0.05,
+          "R'": 0.03,
+          "R2": 0.03,
+          "F": 0.1,
+          "F'": 0.07,
+          "F2": 0.06,
+          "B": 0.02,
+          "B'": 0.01,
+          "B2": 0.02
+        },
+        "confidence": 0.14
+      }
+    },
+    "usage": {
+      "input_tokens": 1183,
+      "output_tokens": 156,
+      "cost": 4.9686e-05
+    },
+    "id": "gen-dec-1792859412-ZCWziPMbvt9E9pI2VhSV",
+    "provider": "TypeSafe"
+  },
+  "response_shape": {
+    "model": "str",
+    "answers": {
+      "next_move": {
+        "type": "str",
+        "choice": "str",
+        "probabilities": {
+          "U": "float",
+          "U'": "float",
+          "U2": "float",
+          "D": "float",
+          "D'": "float",
+          "D2": "float",
+          "L": "float",
+          "L'": "float",
+          "L2": "float",
+          "R": "float",
+          "R'": "float",
+          "R2": "float",
+          "F": "float",
+          "F'": "float",
+          "F2": "float",
+          "B": "float",
+          "B'": "float",
+          "B2": "float"
+        },
+        "confidence": "float"
+      }
+    },
+    "usage": {
+      "input_tokens": "int",
+      "output_tokens": "int",
+      "cost": "float"
+    },
+    "id": "str",
+    "provider": "str"
+  },
+  "choice": "U",
+  "confidence": 0.14,
+  "probability_count": 18
+}

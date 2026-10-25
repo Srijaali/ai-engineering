@@ -1,0 +1,220 @@
+{
+  "recorded_utc": "2026-10-25T13:39:35.807683+00:00",
+  "before": {
+    "total": {
+      "requests": 120,
+      "known_cost_usd": "0.027262678",
+      "unknown_cost_attempts": 27,
+      "cost_usd": null,
+      "unknown_cost_holds_usd": "2.7",
+      "budget_spend_usd": "0.027262678",
+      "historical_unknown_cost_holds_usd": "2.7",
+      "reconciliation": null
+    },
+    "by_model": {
+      "typesafe/jev-1.13": {
+        "requests": 35,
+        "known_cost_usd": "0.00176001",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.00176001",
+        "unknown_cost_holds_usd": "0"
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 44,
+        "known_cost_usd": "0.0016748",
+        "unknown_cost_attempts": 22,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "2.2"
+      },
+      "cloudflare/clef": {
+        "requests": 35,
+        "known_cost_usd": "0.001835868",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.001835868",
+        "unknown_cost_holds_usd": "0"
+      },
+      "anthropic/claude-opus-5.5": {
+        "requests": 6,
+        "known_cost_usd": "0.021992",
+        "unknown_cost_attempts": 5,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.5"
+      }
+    },
+    "by_run": {
+      "b36abd523b1f492241fbf6879006d22d": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      },
+      "historical": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3-smoke-001": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "by_suite": {
+      "diagnostic": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3_smoke": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      },
+      "warmup": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      }
+    },
+    "not_run": []
+  },
+  "after": {
+    "total": {
+      "requests": 120,
+      "known_cost_usd": "0.027262678",
+      "unknown_cost_attempts": 27,
+      "cost_usd": null,
+      "unknown_cost_holds_usd": "0",
+      "budget_spend_usd": "0.11",
+      "historical_unknown_cost_holds_usd": "2.7",
+      "reconciliation": {
+        "id": 1,
+        "created_utc": "2026-10-25T13:39:35.803978+00:00",
+        "authoritative_spend_usd": "0.11",
+        "through_attempt_id": 120,
+        "known_at_checkpoint_usd": "0.027262678",
+        "evidence": {
+          "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+          "reported_total_usd": "0.11",
+          "reported_tokens_approximate": 90000,
+          "dashboard_as_of_time": null,
+          "dashboard_view": null,
+          "dashboard_date_range": null,
+          "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+          "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+        }
+      }
+    },
+    "by_model": {
+      "typesafe/jev-1.13": {
+        "requests": 35,
+        "known_cost_usd": "0.00176001",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.00176001",
+        "unknown_cost_holds_usd": "0"
+      },
+      "openai/gpt-6-luna-decisions": {
+        "requests": 44,
+        "known_cost_usd": "0.0016748",
+        "unknown_cost_attempts": 22,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "2.2"
+      },
+      "cloudflare/clef": {
+        "requests": 35,
+        "known_cost_usd": "0.001835868",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.001835868",
+        "unknown_cost_holds_usd": "0"
+      },
+      "anthropic/claude-opus-5.5": {
+        "requests": 6,
+        "known_cost_usd": "0.021992",
+        "unknown_cost_attempts": 5,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.5"
+      }
+    },
+    "by_run": {
+      "b36abd523b1f492241fbf6879006d22d": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      },
+      "historical": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3-smoke-001": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      }
+    },
+    "by_suite": {
+      "diagnostic": {
+        "requests": 26,
+        "known_cost_usd": "0.000729536",
+        "unknown_cost_attempts": 12,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.2"
+      },
+      "phase3_smoke": {
+        "requests": 4,
+        "known_cost_usd": "0.022165588",
+        "unknown_cost_attempts": 0,
+        "cost_usd": "0.022165588",
+        "unknown_cost_holds_usd": "0"
+      },
+      "warmup": {
+        "requests": 90,
+        "known_cost_usd": "0.004367554",
+        "unknown_cost_attempts": 15,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "1.5"
+      }
+    },
+    "not_run": []
+  },
+  "gap_usd": "0.082737322",
+  "headroom_usd": "3.89",
+  "cap_usd": "4.00",
+  "attempt_rows_sha256_before": "9b2181f8d033269fafda3db11effb3c1a4f232ab9be9d9bab525b19dd40a7107",
+  "attempt_rows_sha256_after": "9b2181f8d033269fafda3db11effb3c1a4f232ab9be9d9bab525b19dd40a7107",
+  "historical_rows_unchanged": true,
+  "new_paid_calls": 0,
+  "missing_earlier_requests": "unknown",
+  "specific_missing_paid_request_identified": false,
+  "examined_sources": [
+    "Current SQLite attempt ledger and canonical diagnostic evidence",
+    "Local original-thread rollout history including optimization/revert period",
+    "/private/tmp/rubiks_restore_tool_calls and rubiks_restore_commands",
+    "/private/tmp/rubiks-pre-optimization-restore and rubiks-phase3-before backups",
+    "/private/tmp/rubiks-{restored,phase3-cumulative,phase456}-costs.json and rubiks-cost-audit-output.json"
+  ],
+  "audit_limitations": "Saved cost snapshots account for 26 diagnostic attempts, then 30 with the Phase 3 smoke; current ledger adds 90 W attempts. No specific additional omitted paid request was established. Logs/history cannot prove complete account billing or recover every reverted execution. Do not infer no missing calls.",
+  "possible_causes_not_established": [
+    "Charges on responses with missing usage.cost, including refusals",
+    "Earlier or reverted-work requests absent from preserved evidence",
+    "Account/key/date-range differences or other activity on the shared account",
+    "Dashboard rounding or reporting-time differences"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "event": "PLAN",
+  "sequence": "primary-C2-C5-owner-20261025",
+  "stop_spend_usd": "2.50",
+  "plans": [
+    {
+      "opus": {
+        "measured_seconds_per_call": 15.958489874999941,
+        "measured_cost_per_call_usd": "0.021992",
+        "measurement_output_cap": 1500,
+        "current_output_cap": 1024,
+        "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+        "expected_per_trial_usd": "0.4134225764265821168077163798",
+        "expected_selected_puzzles_usd": "0.4134225764265821168077163798",
+        "worst_case_per_trial_usd": "3.050640",
+        "worst_case_selected_puzzles_usd": "3.050640",
+        "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+        "caveat": "Planning scenario from one 1500-token smoke; 1024-token runtime/cost is unmeasured. Not a bill guarantee."
+      },
+      "stage": {
+        "name": "C2",
+        "suite": "primary",
+        "puzzle_ids": [
+          "primary-002"
+        ],
+        "models": [
+          "typesafe/jev-1.13",
+          "openai/gpt-6-luna-decisions",
+          "cloudflare/clef",
+          "anthropic/claude-opus-5.5"
+        ],
+        "request_cap": 240
+      },
+      "mode": "LIVE",
+      "models": [
+        "typesafe/jev-1.13",
+        "openai/gpt-6-luna-decisions",
+        "cloudflare/clef",
+        "anthropic/claude-opus-5.5"
+      ],
+      "puzzle_ids": [
+        "primary-002"
+      ],
+      "planned_initial_calls": 120,
+      "retry_envelope": 240,
+      "persistent_stage_request_cap": 240,
+      "global_max_requests": 1000,
+      "max_spend_usd": 4.0,
+      "headroom_after_holds_usd": "3.395146088",
+      "accounting": {
+        "requests": 226,
+        "known_cost_usd": "0.26211659",
+        "unknown_cost_attempts": 53,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.26",
+        "budget_spend_usd": "0.344853912",
+        "historical_unknown_cost_holds_usd": "1.61",
+        "reconciliation": {
+          "id": 1,
+          "created_utc": "2026-10-25T13:39:35.803978+00:00",
+          "authoritative_spend_usd": "0.11",
+          "through_attempt_id": 120,
+          "known_at_checkpoint_usd": "0.027262678",
+          "evidence": {
+            "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+            "reported_total_usd": "0.11",
+            "reported_tokens_approximate": 90000,
+            "dashboard_as_of_time": null,
+            "dashboard_view": null,
+            "dashboard_date_range": null,
+            "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+            "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+          }
+        }
+      },
+      "expected_cost_usd": "0.664967640",
+      "cost_scenario_by_model": {
+        "typesafe/jev-1.13": {
+          "measured_smoke_cost_per_call_usd": "0.000049686",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001490580"
+        },
+        "openai/gpt-6-luna-decisions": {
+          "measured_smoke_cost_per_call_usd": "0.0000806",
+          "thirty_moves_per_puzzle_scenario_usd": "0.0024180"
+        },
+        "cloudflare/clef": {
+          "measured_smoke_cost_per_call_usd": "0.000043302",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001299060"
+        },
+        "anthropic/claude-opus-5.5": {
+          "measured_smoke_cost_per_call_usd": "0.021992",
+          "thirty_moves_per_puzzle_scenario_usd": "0.659760",
+          "wall_time_formula_scenario_usd": "0.4134225764265821168077163798"
+        }
+      },
+      "cost_caveat": "Scenario: repeat one prior smoke price for 30 moves per model/puzzle, no retries. Not a guarantee; actual output, refusals, routing and retries vary.",
+      "fixed_config": {
+        "claude_reasoning_effort": "low",
+        "claude_max_tokens": 1024,
+        "request_timeout_s": 120.0,
+        "run_budget_s": 300.0,
+        "max_transport_retries": 1,
+        "max_malformed_retries": 0,
+        "max_requests": 1000,
+        "max_spend_usd": 4.0,
+        "max_moves": 30
+      },
+      "concurrent": true
+    },
+    {
+      "opus": {
+        "measured_seconds_per_call": 15.958489874999941,
+        "measured_cost_per_call_usd": "0.021992",
+        "measurement_output_cap": 1500,
+        "current_output_cap": 1024,
+        "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+        "expected_per_trial_usd": "0.4134225764265821168077163798",
+        "expected_selected_puzzles_usd": "0.4134225764265821168077163798",
+        "worst_case_per_trial_usd": "3.050640",
+        "worst_case_selected_puzzles_usd": "3.050640",
+        "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+        "caveat": "Planning scenario from one 1500-token smoke; 1024-token runtime/cost is unmeasured. Not a bill guarantee."
+      },
+      "stage": {
+        "name": "C3",
+        "suite": "primary",
+        "puzzle_ids": [
+          "primary-003"
+        ],
+        "models": [
+          "typesafe/jev-1.13",
+          "openai/gpt-6-luna-decisions",
+          "cloudflare/clef",
+          "anthropic/claude-opus-5.5"
+        ],
+        "request_cap": 240
+      },
+      "mode": "LIVE",
+      "models": [
+        "typesafe/jev-1.13",
+        "openai/gpt-6-luna-decisions",
+        "cloudflare/clef",
+        "anthropic/claude-opus-5.5"
+      ],
+      "puzzle_ids": [
+        "primary-003"
+      ],
+      "planned_initial_calls": 120,
+      "retry_envelope": 240,
+      "persistent_stage_request_cap": 240,
+      "global_max_requests": 1000,
+      "max_spend_usd": 4.0,
+      "headroom_after_holds_usd": "3.395146088",
+      "accounting": {
+        "requests": 226,
+        "known_cost_usd": "0.26211659",
+        "unknown_cost_attempts": 53,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.26",
+        "budget_spend_usd": "0.344853912",
+        "historical_unknown_cost_holds_usd": "1.61",
+        "reconciliation": {
+          "id": 1,
+          "created_utc": "2026-10-25T13:39:35.803978+00:00",
+          "authoritative_spend_usd": "0.11",
+          "through_attempt_id": 120,
+          "known_at_checkpoint_usd": "0.027262678",
+          "evidence": {
+            "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+            "reported_total_usd": "0.11",
+            "reported_tokens_approximate": 90000,
+            "dashboard_as_of_time": null,
+            "dashboard_view": null,
+            "dashboard_date_range": null,
+            "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+            "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+          }
+        }
+      },
+      "expected_cost_usd": "0.664967640",
+      "cost_scenario_by_model": {
+        "typesafe/jev-1.13": {
+          "measured_smoke_cost_per_call_usd": "0.000049686",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001490580"
+        },
+        "openai/gpt-6-luna-decisions": {
+          "measured_smoke_cost_per_call_usd": "0.0000806",
+          "thirty_moves_per_puzzle_scenario_usd": "0.0024180"
+        },
+        "cloudflare/clef": {
+          "measured_smoke_cost_per_call_usd": "0.000043302",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001299060"
+        },
+        "anthropic/claude-opus-5.5": {
+          "measured_smoke_cost_per_call_usd": "0.021992",
+          "thirty_moves_per_puzzle_scenario_usd": "0.659760",
+          "wall_time_formula_scenario_usd": "0.4134225764265821168077163798"
+        }
+      },
+      "cost_caveat": "Scenario: repeat one prior smoke price for 30 moves per model/puzzle, no retries. Not a guarantee; actual output, refusals, routing and retries vary.",
+      "fixed_config": {
+        "claude_reasoning_effort": "low",
+        "claude_max_tokens": 1024,
+        "request_timeout_s": 120.0,
+        "run_budget_s": 300.0,
+        "max_transport_retries": 1,
+        "max_malformed_retries": 0,
+        "max_requests": 1000,
+        "max_spend_usd": 4.0,
+        "max_moves": 30
+      },
+      "concurrent": true
+    },
+    {
+      "opus": {
+        "measured_seconds_per_call": 15.958489874999941,
+        "measured_cost_per_call_usd": "0.021992",
+        "measurement_output_cap": 1500,
+        "current_output_cap": 1024,
+        "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+        "expected_per_trial_usd": "0.4134225764265821168077163798",
+        "expected_selected_puzzles_usd": "0.4134225764265821168077163798",
+        "worst_case_per_trial_usd": "3.050640",
+        "worst_case_selected_puzzles_usd": "3.050640",
+        "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+        "caveat": "Planning scenario from one 1500-token smoke; 1024-token runtime/cost is unmeasured. Not a bill guarantee."
+      },
+      "stage": {
+        "name": "C4",
+        "suite": "primary",
+        "puzzle_ids": [
+          "primary-004"
+        ],
+        "models": [
+          "typesafe/jev-1.13",
+          "openai/gpt-6-luna-decisions",
+          "cloudflare/clef",
+          "anthropic/claude-opus-5.5"
+        ],
+        "request_cap": 240
+      },
+      "mode": "LIVE",
+      "models": [
+        "typesafe/jev-1.13",
+        "openai/gpt-6-luna-decisions",
+        "cloudflare/clef",
+        "anthropic/claude-opus-5.5"
+      ],
+      "puzzle_ids": [
+        "primary-004"
+      ],
+      "planned_initial_calls": 120,
+      "retry_envelope": 240,
+      "persistent_stage_request_cap": 240,
+      "global_max_requests": 1000,
+      "max_spend_usd": 4.0,
+      "headroom_after_holds_usd": "3.395146088",
+      "accounting": {
+        "requests": 226,
+        "known_cost_usd": "0.26211659",
+        "unknown_cost_attempts": 53,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.26",
+        "budget_spend_usd": "0.344853912",
+        "historical_unknown_cost_holds_usd": "1.61",
+        "reconciliation": {
+          "id": 1,
+          "created_utc": "2026-10-25T13:39:35.803978+00:00",
+          "authoritative_spend_usd": "0.11",
+          "through_attempt_id": 120,
+          "known_at_checkpoint_usd": "0.027262678",
+          "evidence": {
+            "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+            "reported_total_usd": "0.11",
+            "reported_tokens_approximate": 90000,
+            "dashboard_as_of_time": null,
+            "dashboard_view": null,
+            "dashboard_date_range": null,
+            "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+            "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+          }
+        }
+      },
+      "expected_cost_usd": "0.664967640",
+      "cost_scenario_by_model": {
+        "typesafe/jev-1.13": {
+          "measured_smoke_cost_per_call_usd": "0.000049686",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001490580"
+        },
+        "openai/gpt-6-luna-decisions": {
+          "measured_smoke_cost_per_call_usd": "0.0000806",
+          "thirty_moves_per_puzzle_scenario_usd": "0.0024180"
+        },
+        "cloudflare/clef": {
+          "measured_smoke_cost_per_call_usd": "0.000043302",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001299060"
+        },
+        "anthropic/claude-opus-5.5": {
+          "measured_smoke_cost_per_call_usd": "0.021992",
+          "thirty_moves_per_puzzle_scenario_usd": "0.659760",
+          "wall_time_formula_scenario_usd": "0.4134225764265821168077163798"
+        }
+      },
+      "cost_caveat": "Scenario: repeat one prior smoke price for 30 moves per model/puzzle, no retries. Not a guarantee; actual output, refusals, routing and retries vary.",
+      "fixed_config": {
+        "claude_reasoning_effort": "low",
+        "claude_max_tokens": 1024,
+        "request_timeout_s": 120.0,
+        "run_budget_s": 300.0,
+        "max_transport_retries": 1,
+        "max_malformed_retries": 0,
+        "max_requests": 1000,
+        "max_spend_usd": 4.0,
+        "max_moves": 30
+      },
+      "concurrent": true
+    },
+    {
+      "opus": {
+        "measured_seconds_per_call": 15.958489874999941,
+        "measured_cost_per_call_usd": "0.021992",
+        "measurement_output_cap": 1500,
+        "current_output_cap": 1024,
+        "expected_formula": "(RUN_BUDGET_S / measured_seconds_per_call) * measured_cost_per_call",
+        "expected_per_trial_usd": "0.4134225764265821168077163798",
+        "expected_selected_puzzles_usd": "0.4134225764265821168077163798",
+        "worst_case_per_trial_usd": "3.050640",
+        "worst_case_selected_puzzles_usd": "3.050640",
+        "worst_case_assumption": "30 actions, all configured retries, full output ceiling; input upper bound UTF-8 bytes + 4096 framing at a $4/$20-per-million price snapshot. Harness still stops at $4.",
+        "caveat": "Planning scenario from one 1500-token smoke; 1024-token runtime/cost is unmeasured. Not a bill guarantee."
+      },
+      "stage": {
+        "name": "C5",
+        "suite": "primary",
+        "puzzle_ids": [
+          "primary-005"
+        ],
+        "models": [
+          "typesafe/jev-1.13",
+          "openai/gpt-6-luna-decisions",
+          "cloudflare/clef",
+          "anthropic/claude-opus-5.5"
+        ],
+        "request_cap": 240
+      },
+      "mode": "LIVE",
+      "models": [
+        "typesafe/jev-1.13",
+        "openai/gpt-6-luna-decisions",
+        "cloudflare/clef",
+        "anthropic/claude-opus-5.5"
+      ],
+      "puzzle_ids": [
+        "primary-005"
+      ],
+      "planned_initial_calls": 120,
+      "retry_envelope": 240,
+      "persistent_stage_request_cap": 240,
+      "global_max_requests": 1000,
+      "max_spend_usd": 4.0,
+      "headroom_after_holds_usd": "3.395146088",
+      "accounting": {
+        "requests": 226,
+        "known_cost_usd": "0.26211659",
+        "unknown_cost_attempts": 53,
+        "cost_usd": null,
+        "unknown_cost_holds_usd": "0.26",
+        "budget_spend_usd": "0.344853912",
+        "historical_unknown_cost_holds_usd": "1.61",
+        "reconciliation": {
+          "id": 1,
+          "created_utc": "2026-10-25T13:39:35.803978+00:00",
+          "authoritative_spend_usd": "0.11",
+          "through_attempt_id": 120,
+          "known_at_checkpoint_usd": "0.027262678",
+          "evidence": {
+            "source": "OpenRouter spending reported by owner in chat; not independently fetched",
+            "reported_total_usd": "0.11",
+            "reported_tokens_approximate": 90000,
+            "dashboard_as_of_time": null,
+            "dashboard_view": null,
+            "dashboard_date_range": null,
+            "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.",
+            "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."
+          }
+        }
+      },
+      "expected_cost_usd": "0.664967640",
+      "cost_scenario_by_model": {
+        "typesafe/jev-1.13": {
+          "measured_smoke_cost_per_call_usd": "0.000049686",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001490580"
+        },
+        "openai/gpt-6-luna-decisions": {
+          "measured_smoke_cost_per_call_usd": "0.0000806",
+          "thirty_moves_per_puzzle_scenario_usd": "0.0024180"
+        },
+        "cloudflare/clef": {
+          "measured_smoke_cost_per_call_usd": "0.000043302",
+          "thirty_moves_per_puzzle_scenario_usd": "0.001299060"
+        },
+        "anthropic/claude-opus-5.5": {
+          "measured_smoke_cost_per_call_usd": "0.021992",
+          "thirty_moves_per_puzzle_scenario_usd": "0.659760",
+          "wall_time_formula_scenario_usd": "0.4134225764265821168077163798"
+        }
+      },
+      "cost_caveat": "Scenario: repeat one prior smoke price for 30 moves per model/puzzle, no retries. Not a guarantee; actual output, refusals, routing and retries vary.",
+      "fixed_config": {
+        "claude_reasoning_effort": "low",
+        "claude_max_tokens": 1024,
+        "request_timeout_s": 120.0,
+        "run_budget_s": 300.0,
+        "max_transport_retries": 1,
+        "max_malformed_retries": 0,
+        "max_requests": 1000,
+        "max_spend_usd": 4.0,
+        "max_moves": 30
+      },
+      "concurrent": true
+    }
+  ]
+}
+{"event": "STAGE_STARTED", "stage": "C2", "run_id": "f83d57c4ef71bcf498a3155c44547615"}
+{"event": "PROGRESS", "stage": "C2", "requests": 37, "budget": {"requests": 263, "known_cost_usd": "0.275787002", "unknown_cost_attempts": 62, "cost_usd": null, "unknown_cost_holds_usd": "0.71", "budget_spend_usd": "0.358524324", "historical_unknown_cost_holds_usd": "2.06", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 78, "budget": {"requests": 304, "known_cost_usd": "0.302063876", "unknown_cost_attempts": 65, "cost_usd": null, "unknown_cost_holds_usd": "0.74", "budget_spend_usd": "0.384801198", "historical_unknown_cost_holds_usd": "2.09", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 100, "budget": {"requests": 326, "known_cost_usd": "0.321650128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.40438745", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 103, "budget": {"requests": 329, "known_cost_usd": "0.340034128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.42277145", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 106, "budget": {"requests": 332, "known_cost_usd": "0.358378128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.44111545", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 110, "budget": {"requests": 336, "known_cost_usd": "0.382858128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.46559545", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 112, "budget": {"requests": 338, "known_cost_usd": "0.395098128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.47783545", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 115, "budget": {"requests": 341, "known_cost_usd": "0.413462128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.49619945", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 116, "budget": {"requests": 342, "known_cost_usd": "0.419570128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.50230745", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C2", "requests": 119, "budget": {"requests": 345, "known_cost_usd": "0.440814128", "unknown_cost_attempts": 64, "cost_usd": null, "unknown_cost_holds_usd": "0.46", "budget_spend_usd": "0.52355145", "historical_unknown_cost_holds_usd": "1.81", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "STAGE_FINISHED", "stage": "C2", "status": "COMPLETED", "models": [{"model_id": "typesafe/jev-1.13", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 30, "mean": 805.2725916672595, "median": 716.6469380026683, "p95": 1263.210707998951}, "all_attempt_latency_ms": {"n": 30, "mean": 805.2725916672595, "median": 716.6469380026683, "p95": 1263.210707998951}, "refusals": 0, "forfeits": 0, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.001515570", "unknown_cost_attempts": 0, "cost_usd": "0.001515570", "requests": 30, "cost_source": "usage.cost"}, {"model_id": "openai/gpt-6-luna-decisions", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 20, "mean": 737.5736187001166, "median": 731.1778125003912, "p95": 782.7002499980154}, "all_attempt_latency_ms": {"n": 30, "mean": 779.1667124998639, "median": 735.1186040032189, "p95": 968.6011659941869}, "refusals": 10, "forfeits": 10, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.0016361", "unknown_cost_attempts": 10, "cost_usd": null, "requests": 30, "cost_source": "usage.cost"}, {"model_id": "cloudflare/clef", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 30, "mean": 928.0831527656119, "median": 854.1587504987547, "p95": 1331.8072499969276}, "all_attempt_latency_ms": {"n": 30, "mean": 928.0831527656119, "median": 854.1587504987547, "p95": 1331.8072499969276}, "refusals": 0, "forfeits": 0, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.001625868", "unknown_cost_attempts": 0, "cost_usd": "0.001625868", "requests": 30, "cost_source": "usage.cost"}, {"model_id": "anthropic/claude-opus-5.5", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 30, "mean": 3443.6461443990993, "median": 3059.9216669979796, "p95": 5734.321791002003}, "all_attempt_latency_ms": {"n": 30, "mean": 3443.6461443990993, "median": 3059.9216669979796, "p95": 5734.321791002003}, "refusals": 0, "forfeits": 0, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.186140", "unknown_cost_attempts": 0, "cost_usd": "0.186140", "requests": 30, "cost_source": "usage.cost"}], "cost": {"known_cost_usd": "0.190917538", "unknown_cost_attempts": 10, "cost_usd": null, "requests": 120, "cost_source": "usage.cost"}}
+{"event": "STAGE_STARTED", "stage": "C3", "run_id": "912193241d4b3efe90f950d3e2e13df6"}
+{"event": "PROGRESS", "stage": "C3", "requests": 35, "budget": {"requests": 381, "known_cost_usd": "0.454671982", "unknown_cost_attempts": 69, "cost_usd": null, "unknown_cost_holds_usd": "0.78", "budget_spend_usd": "0.537409304", "historical_unknown_cost_holds_usd": "2.13", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 74, "budget": {"requests": 420, "known_cost_usd": "0.480727238", "unknown_cost_attempts": 75, "cost_usd": null, "unknown_cost_holds_usd": "0.84", "budget_spend_usd": "0.56346456", "historical_unknown_cost_holds_usd": "2.19", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 93, "budget": {"requests": 439, "known_cost_usd": "0.487747484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.570484806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 94, "budget": {"requests": 440, "known_cost_usd": "0.514095484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.596832806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 94, "budget": {"requests": 440, "known_cost_usd": "0.514095484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.596832806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 95, "budget": {"requests": 441, "known_cost_usd": "0.540443484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.623180806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 95, "budget": {"requests": 441, "known_cost_usd": "0.540443484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.623180806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 96, "budget": {"requests": 442, "known_cost_usd": "0.566791484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.649528806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 96, "budget": {"requests": 442, "known_cost_usd": "0.566791484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.649528806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 97, "budget": {"requests": 443, "known_cost_usd": "0.589039484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.671776806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 98, "budget": {"requests": 444, "known_cost_usd": "0.605135484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.687872806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 99, "budget": {"requests": 445, "known_cost_usd": "0.628571484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.711308806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 99, "budget": {"requests": 445, "known_cost_usd": "0.628571484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.711308806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 100, "budget": {"requests": 446, "known_cost_usd": "0.647211484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.729948806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 101, "budget": {"requests": 447, "known_cost_usd": "0.669595484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.752332806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 101, "budget": {"requests": 447, "known_cost_usd": "0.669595484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.752332806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 102, "budget": {"requests": 448, "known_cost_usd": "0.694931484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.777668806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 103, "budget": {"requests": 449, "known_cost_usd": "0.712127484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.794864806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 103, "budget": {"requests": 449, "known_cost_usd": "0.712127484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.794864806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 104, "budget": {"requests": 450, "known_cost_usd": "0.733699484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.816436806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 105, "budget": {"requests": 451, "known_cost_usd": "0.752623484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.835360806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 105, "budget": {"requests": 451, "known_cost_usd": "0.752623484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.835360806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 107, "budget": {"requests": 453, "known_cost_usd": "0.784763484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.867500806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 107, "budget": {"requests": 453, "known_cost_usd": "0.784763484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.867500806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 108, "budget": {"requests": 454, "known_cost_usd": "0.807239484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.889976806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 109, "budget": {"requests": 455, "known_cost_usd": "0.822175484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.904912806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 110, "budget": {"requests": 456, "known_cost_usd": "0.835415484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.918152806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 111, "budget": {"requests": 457, "known_cost_usd": "0.857315484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.940052806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "PROGRESS", "stage": "C3", "requests": 111, "budget": {"requests": 457, "known_cost_usd": "0.857315484", "unknown_cost_attempts": 78, "cost_usd": null, "unknown_cost_holds_usd": "0.6", "budget_spend_usd": "0.940052806", "historical_unknown_cost_holds_usd": "1.95", "reconciliation": {"id": 1, "created_utc": "2026-10-25T13:39:35.803978+00:00", "authoritative_spend_usd": "0.11", "through_attempt_id": 120, "known_at_checkpoint_usd": "0.027262678", "evidence": {"source": "OpenRouter spending reported by owner in chat; not independently fetched", "reported_total_usd": "0.11", "reported_tokens_approximate": 90000, "dashboard_as_of_time": null, "dashboard_view": null, "dashboard_date_range": null, "scope_caveat": "User supplied HH:MM and bracketed source/date-range placeholders; actual time, view and range remain unknown.", "coverage": "Owner authorizes this total to cover all 120 current local attempts for conservative budget headroom; cross-account attribution remains unverified."}}}}
+{"event": "STAGE_FINISHED", "stage": "C3", "status": "STOPPED", "models": [{"model_id": "typesafe/jev-1.13", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 30, "mean": 753.5303485664675, "median": 694.1619584977161, "p95": 1149.575208000897}, "all_attempt_latency_ms": {"n": 30, "mean": 753.5303485664675, "median": 694.1619584977161, "p95": 1149.575208000897}, "refusals": 0, "forfeits": 0, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.001511874", "unknown_cost_attempts": 0, "cost_usd": "0.001511874", "requests": 30, "cost_source": "usage.cost"}, {"model_id": "openai/gpt-6-luna-decisions", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 16, "mean": 868.5600493126913, "median": 776.3627499989525, "p95": 1365.982666000491}, "all_attempt_latency_ms": {"n": 30, "mean": 825.3186470664028, "median": 748.7486879981589, "p95": 1267.5129999988712}, "refusals": 14, "forfeits": 14, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.0012995", "unknown_cost_attempts": 14, "cost_usd": null, "requests": 30, "cost_source": "usage.cost"}, {"model_id": "cloudflare/clef", "statuses": ["RAN_OUT_OF_MOVES"], "moves_used": 30, "successful_attempt_latency_ms": {"n": 30, "mean": 888.3239596664984, "median": 848.730333000276, "p95": 1169.8712919969694}, "all_attempt_latency_ms": {"n": 30, "mean": 888.3239596664984, "median": 848.730333000276, "p95": 1169.8712919969694}, "refusals": 0, "forfeits": 0, "truncated_responses": 0, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.001517982", "unknown_cost_attempts": 0, "cost_usd": "0.001517982", "requests": 30, "cost_source": "usage.cost"}, {"model_id": "anthropic/claude-opus-5.5", "statuses": ["INFRA_ERROR"], "moves_used": 21, "successful_attempt_latency_ms": {"n": 18, "mean": 13181.689870443935, "median": 14408.526812498167, "p95": 17985.737959003018}, "all_attempt_latency_ms": {"n": 22, "mean": 13623.252520953842, "median": 14783.72770849819, "p95": 18838.51687499555}, "refusals": 0, "forfeits": 3, "truncated_responses": 3, "other_malformed_outputs": 0, "retries": 0, "known_cost_usd": "0.420528", "unknown_cost_attempts": 1, "cost_usd": null, "requests": 22, "cost_source": "usage.cost"}], "cost": {"known_cost_usd": "0.424857356", "unknown_cost_attempts": 15, "cost_usd": null, "requests": 112, "cost_source": "usage.cost"}}
+{"event": "SEQUENCE_STOPPED", "reason": "TRANSPORT_ERROR"}

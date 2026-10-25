@@ -1,0 +1,34 @@
+{
+  "phase": 0,
+  "stage": "luna-b",
+  "timestamp_utc": "2026-10-24T16:01:02.309636+00:00",
+  "account_context": "current .env key; user reports purchased credits",
+  "model_id": "openai/gpt-6-luna-decisions",
+  "http_status": 502,
+  "resolved_model": null,
+  "provider": null,
+  "usage_cost": null,
+  "request_file": "docs/verification/ladder-20261024-next-luna-b.request.json",
+  "request_body_sha256": "2f7fd12a18665c39f7725cd7cdeba2f87289ec5dc034223691c933ece6ce3b54",
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "latency_ms": 1373.0450000002747,
+  "response": {
+    "error": {
+      "message": "OpenAI refused to answer question \"next_move\"",
+      "code": 502
+    }
+  },
+  "response_shape": {
+    "error": {
+      "message": "str",
+      "code": "int"
+    }
+  },
+  "chosen_id": null,
+  "confidence": null,
+  "confidence_present": false,
+  "probabilities_present": false,
+  "move": null
+}

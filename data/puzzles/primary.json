@@ -1,0 +1,157 @@
+[
+  {
+    "id": "primary-001",
+    "suite": "primary",
+    "seed": 3531593024503984905,
+    "scramble": [
+      "B'",
+      "U'",
+      "F2",
+      "R2"
+    ],
+    "facelets": "LULLUDDDRURBURLFFLFFBFFBLLRUUUDDURRDBBRDLRDLFDRUFBBFBB",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-002",
+    "suite": "primary",
+    "seed": 15983207571501581798,
+    "scramble": [
+      "B",
+      "R'",
+      "D",
+      "F"
+    ],
+    "facelets": "RRBUUBBLLUDDURRBFUUFFLFFLURFRDLDDFFFULLULDDBDLBBDBBRRR",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-003",
+    "suite": "primary",
+    "seed": 1135332994058003150,
+    "scramble": [
+      "R'",
+      "F2",
+      "R",
+      "F'"
+    ],
+    "facelets": "UUFUUFLRRDLLURRBRRUFFFFFUUURRRDDDDDDLLFLLDLLFDBBBBBBBB",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-004",
+    "suite": "primary",
+    "seed": 12070938058825299283,
+    "scramble": [
+      "R2",
+      "U",
+      "L",
+      "R"
+    ],
+    "facelets": "BURBUBLDBRRFRRBRRBURUUFUDFURDFFDFFDLLLFLLFLLBDLDUBDUBD",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-005",
+    "suite": "primary",
+    "seed": 1603080108791538475,
+    "scramble": [
+      "B2",
+      "R'",
+      "F",
+      "U"
+    ],
+    "facelets": "LUDLUDLBBUBBURRBRRULLFFFUUDRRLDDFUUFFFFRLDRLFRLDDBBDBB",
+    "scramble_length": 4,
+    "exact_optimal": 4,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-006",
+    "suite": "primary",
+    "seed": 16186512987273151732,
+    "scramble": [
+      "D'",
+      "R2",
+      "B2",
+      "L2",
+      "F2"
+    ],
+    "facelets": "DDDDUDUDURBFRRLBRLBRFBFFLFRDUDUDUUUUFFRLLRLLBLLRBBFBBF",
+    "scramble_length": 5,
+    "exact_optimal": 5,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-007",
+    "suite": "primary",
+    "seed": 15718679217126495832,
+    "scramble": [
+      "U2",
+      "F'",
+      "L2",
+      "D2",
+      "R'"
+    ],
+    "facelets": "RUFDUBDRFLRRLRRDDUBFUBFUBBRDDFDDFLLBULLULLDRRUFBUBBLFF",
+    "scramble_length": 5,
+    "exact_optimal": 5,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-008",
+    "suite": "primary",
+    "seed": 12013854946380090747,
+    "scramble": [
+      "R2",
+      "U",
+      "R",
+      "D2",
+      "B2"
+    ],
+    "facelets": "DDFUUBDDBRRRRRLLLFRRUFFUUBBLDDFDDRUULFBBLLFRBUFFBBULLD",
+    "scramble_length": 5,
+    "exact_optimal": 5,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-009",
+    "suite": "primary",
+    "seed": 11312971716982976547,
+    "scramble": [
+      "F'",
+      "U2",
+      "F2",
+      "L'",
+      "B'"
+    ],
+    "facelets": "DRDFUUBLLULFURRRRRUFFDFFDBBBUUBDDRRUFDLDLLDLLLURFBBFBB",
+    "scramble_length": 5,
+    "exact_optimal": 5,
+    "reference_upper_bound": null
+  },
+  {
+    "id": "primary-010",
+    "suite": "primary",
+    "seed": 6399822186324946084,
+    "scramble": [
+      "U2",
+      "R'",
+      "B2",
+      "U2",
+      "L2"
+    ],
+    "facelets": "DUUDUUBDFRRRLRLLRRDBDDFUUFUFDBBDFDUULLRLLRLRLBBFBBFFFB",
+    "scramble_length": 5,
+    "exact_optimal": 5,
+    "reference_upper_bound": null
+  }
+]

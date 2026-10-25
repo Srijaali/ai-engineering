@@ -1,0 +1,15 @@
+{
+  "config": {
+    "claude_reasoning_effort": "low",
+    "claude_max_tokens": 1500,
+    "request_timeout_s": 120.0,
+    "run_budget_s": 600.0,
+    "max_transport_retries": 1,
+    "max_malformed_retries": 0,
+    "max_requests": 1000,
+    "max_spend_usd": 5.0,
+    "max_moves": 30
+  },
+  "live_validated": true,
+  "benchmark_started": false
+}

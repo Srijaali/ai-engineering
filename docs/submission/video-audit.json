@@ -1,0 +1,66 @@
+{
+  "original_source_url": "https://drive.google.com/file/d/1n-CPs4JyyeCBS0e388Dxj3GwXwaDbulI/view?usp=share_link",
+  "original_download_preserved": "/private/tmp/rubiks-submission-original.mp4",
+  "original_sha256": "42b7534da81430f55424b76d81c9b5199b366ce52126df85b7341d17c248aa38",
+  "compressed_sha256": "7682a7ece6fe927c94c1bff76b7710c16eac2425f2bb21bc8b27ccf1385cae8d",
+  "original": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "hevc",
+        "codec_type": "video",
+        "width": 3456,
+        "height": 1988,
+        "r_frame_rate": "120/1"
+      }
+    ],
+    "format": {
+      "duration": "272.795000",
+      "size": "191352809"
+    }
+  },
+  "compressed": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1104,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "272.795000",
+      "size": "13143797"
+    }
+  },
+  "duration_matches": true,
+  "source_audio": "none",
+  "output_audio": "silent AAC explicitly added for requested codec container; no narration",
+  "frames_inspected_seconds": [
+    0,
+    20,
+    136.3975,
+    195,
+    240,
+    272
+  ],
+  "header_readable_in_sampled_frames": true,
+  "all_frame_visibility_audited": false,
+  "video_scope_warning": "Original closing dashboard includes completed C3 decision trials (0/3); corrected paired README/dashboard is C1+C2 (0/2, Opus1/2). Original action/content sequence not altered.",
+  "owner_input": "4:33 was clarified to be total length, not a stage timestamp",
+  "observed_checkpoints": {
+    "in_progress": "0:20",
+    "completion": "3:15",
+    "statistics": "4:00"
+  },
+  "owner_checkpoint_confirmation": "pending"
+}

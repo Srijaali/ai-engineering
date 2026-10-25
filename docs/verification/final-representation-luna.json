@@ -1,0 +1,37 @@
+{
+  "phase": 0,
+  "stage": "luna",
+  "timestamp_utc": "2026-10-24T16:30:36.634457+00:00",
+  "model_id": "openai/gpt-6-luna-decisions",
+  "scramble": [
+    "F",
+    "R",
+    "U'",
+    "B2"
+  ],
+  "request_file": "docs/verification/final-representation-luna.request.json",
+  "sha256": "10d7270c5e256d9aa616c85530a7ab9b9ad725c16674a0e6e6272a1a204b5837",
+  "http_status": 502,
+  "resolved_model": null,
+  "provider": null,
+  "usage_cost": null,
+  "attempts": 1,
+  "retries": 0,
+  "benchmark_data": false,
+  "latency_ms": 1943.8311659996543,
+  "response": {
+    "error": {
+      "message": "OpenAI refused to answer question \"next_move\"",
+      "code": 502
+    }
+  },
+  "response_shape": {
+    "error": {
+      "message": "str",
+      "code": "int"
+    }
+  },
+  "choice": null,
+  "confidence": null,
+  "probability_count": null
+}

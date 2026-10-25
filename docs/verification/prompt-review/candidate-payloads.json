@@ -1,0 +1,184 @@
+{
+  "typesafe/jev-1.13": {
+    "endpoint": "/api/alpha/decisions",
+    "payload": {
+      "model": "typesafe/jev-1.13",
+      "state": {
+        "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+        "facelet_order": "URFDLB",
+        "recent_moves": [],
+        "moves_used": 0,
+        "moves_remaining": 30,
+        "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+      },
+      "questions": {
+        "next_move": {
+          "type": "choice",
+          "instructions": "Cube: 54 solved-face colour letters, row-major URFDLB, each face viewed from outside; fixed centres. Net is the same state: U above F, L F R B across, D below F. Turns are viewed directly at the named face; no whole-cube rotations. HTM: each listed turn costs one move, including 180 degrees. Limit: 30 moves. recent_moves contains the last six applied moves; moves_used and moves_remaining track the limit. Goal: UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB.\nChoose the single next move most likely to progress toward the solved cube.",
+          "criteria": {
+            "U": "Upper 90 degrees clockwise",
+            "U'": "Upper 90 degrees counterclockwise",
+            "U2": "Upper 180 degrees",
+            "D": "Down 90 degrees clockwise",
+            "D'": "Down 90 degrees counterclockwise",
+            "D2": "Down 180 degrees",
+            "L": "Left 90 degrees clockwise",
+            "L'": "Left 90 degrees counterclockwise",
+            "L2": "Left 180 degrees",
+            "R": "Right 90 degrees clockwise",
+            "R'": "Right 90 degrees counterclockwise",
+            "R2": "Right 180 degrees",
+            "F": "Front 90 degrees clockwise",
+            "F'": "Front 90 degrees counterclockwise",
+            "F2": "Front 180 degrees",
+            "B": "Back 90 degrees clockwise",
+            "B'": "Back 90 degrees counterclockwise",
+            "B2": "Back 180 degrees"
+          }
+        }
+      }
+    }
+  },
+  "openai/gpt-6-luna-decisions": {
+    "endpoint": "/api/alpha/decisions",
+    "payload": {
+      "model": "openai/gpt-6-luna-decisions",
+      "state": {
+        "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+        "facelet_order": "URFDLB",
+        "recent_moves": [],
+        "moves_used": 0,
+        "moves_remaining": 30,
+        "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+      },
+      "questions": {
+        "next_move": {
+          "type": "choice",
+          "instructions": "Cube: 54 solved-face colour letters, row-major URFDLB, each face viewed from outside; fixed centres. Net is the same state: U above F, L F R B across, D below F. Turns are viewed directly at the named face; no whole-cube rotations. HTM: each listed turn costs one move, including 180 degrees. Limit: 30 moves. recent_moves contains the last six applied moves; moves_used and moves_remaining track the limit. Goal: UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB.\nChoose the single next move most likely to progress toward the solved cube.",
+          "criteria": {
+            "U": "Upper 90 degrees clockwise",
+            "U'": "Upper 90 degrees counterclockwise",
+            "U2": "Upper 180 degrees",
+            "D": "Down 90 degrees clockwise",
+            "D'": "Down 90 degrees counterclockwise",
+            "D2": "Down 180 degrees",
+            "L": "Left 90 degrees clockwise",
+            "L'": "Left 90 degrees counterclockwise",
+            "L2": "Left 180 degrees",
+            "R": "Right 90 degrees clockwise",
+            "R'": "Right 90 degrees counterclockwise",
+            "R2": "Right 180 degrees",
+            "F": "Front 90 degrees clockwise",
+            "F'": "Front 90 degrees counterclockwise",
+            "F2": "Front 180 degrees",
+            "B": "Back 90 degrees clockwise",
+            "B'": "Back 90 degrees counterclockwise",
+            "B2": "Back 180 degrees"
+          }
+        }
+      }
+    }
+  },
+  "cloudflare/clef": {
+    "endpoint": "/api/alpha/decisions",
+    "payload": {
+      "model": "cloudflare/clef",
+      "state": {
+        "facelets": "FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU",
+        "facelet_order": "URFDLB",
+        "recent_moves": [],
+        "moves_used": 0,
+        "moves_remaining": 30,
+        "net": "    U\n    FUF\n    FUF\n    UUF\nL   F   R   B\nLLR BFD RRR UBU\nLLR BFD RRR UBU\nLLR BBB LLL FFU\n    D\n    DDD\n    BDD\n    BDD"
+      },
+      "questions": {
+        "next_move": {
+          "type": "choice",
+          "instructions": "Cube: 54 solved-face colour letters, row-major URFDLB, each face viewed from outside; fixed centres. Net is the same state: U above F, L F R B across, D below F. Turns are viewed directly at the named face; no whole-cube rotations. HTM: each listed turn costs one move, including 180 degrees. Limit: 30 moves. recent_moves contains the last six applied moves; moves_used and moves_remaining track the limit. Goal: UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB.\nChoose the single next move most likely to progress toward the solved cube.",
+          "criteria": {
+            "U": "Upper 90 degrees clockwise",
+            "U'": "Upper 90 degrees counterclockwise",
+            "U2": "Upper 180 degrees",
+            "D": "Down 90 degrees clockwise",
+            "D'": "Down 90 degrees counterclockwise",
+            "D2": "Down 180 degrees",
+            "L": "Left 90 degrees clockwise",
+            "L'": "Left 90 degrees counterclockwise",
+            "L2": "Left 180 degrees",
+            "R": "Right 90 degrees clockwise",
+            "R'": "Right 90 degrees counterclockwise",
+            "R2": "Right 180 degrees",
+            "F": "Front 90 degrees clockwise",
+            "F'": "Front 90 degrees counterclockwise",
+            "F2": "Front 180 degrees",
+            "B": "Back 90 degrees clockwise",
+            "B'": "Back 90 degrees counterclockwise",
+            "B2": "Back 180 degrees"
+          }
+        }
+      }
+    }
+  },
+  "anthropic/claude-opus-5.5": {
+    "endpoint": "/api/v1/chat/completions",
+    "payload": {
+      "model": "anthropic/claude-opus-5.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Cube: 54 solved-face colour letters, row-major URFDLB, each face viewed from outside; fixed centres. Net is the same state: U above F, L F R B across, D below F. Turns are viewed directly at the named face; no whole-cube rotations. HTM: each listed turn costs one move, including 180 degrees. Limit: 30 moves. recent_moves contains the last six applied moves; moves_used and moves_remaining track the limit. Goal: UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB.\nChoose the single next move most likely to progress toward the solved cube.\nMoves: {\"U\":\"Upper 90 degrees clockwise\",\"U'\":\"Upper 90 degrees counterclockwise\",\"U2\":\"Upper 180 degrees\",\"D\":\"Down 90 degrees clockwise\",\"D'\":\"Down 90 degrees counterclockwise\",\"D2\":\"Down 180 degrees\",\"L\":\"Left 90 degrees clockwise\",\"L'\":\"Left 90 degrees counterclockwise\",\"L2\":\"Left 180 degrees\",\"R\":\"Right 90 degrees clockwise\",\"R'\":\"Right 90 degrees counterclockwise\",\"R2\":\"Right 180 degrees\",\"F\":\"Front 90 degrees clockwise\",\"F'\":\"Front 90 degrees counterclockwise\",\"F2\":\"Front 180 degrees\",\"B\":\"Back 90 degrees clockwise\",\"B'\":\"Back 90 degrees counterclockwise\",\"B2\":\"Back 180 degrees\"}\nReturn schema JSON with one move."
+        },
+        {
+          "role": "user",
+          "content": "{\"facelets\": \"FUFFUFUUFRRRRRRLLLBFDBFDBBBDDDBDDBDDLLRLLRLLRUBUUBUFFU\", \"facelet_order\": \"URFDLB\", \"recent_moves\": [], \"moves_used\": 0, \"moves_remaining\": 30, \"net\": \"    U\\n    FUF\\n    FUF\\n    UUF\\nL   F   R   B\\nLLR BFD RRR UBU\\nLLR BFD RRR UBU\\nLLR BBB LLL FFU\\n    D\\n    DDD\\n    BDD\\n    BDD\"}"
+        }
+      ],
+      "reasoning": {
+        "effort": "low"
+      },
+      "max_tokens": 1024,
+      "provider": {
+        "require_parameters": true
+      },
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "move",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "move": {
+                "type": "string",
+                "enum": [
+                  "U",
+                  "U'",
+                  "U2",
+                  "D",
+                  "D'",
+                  "D2",
+                  "L",
+                  "L'",
+                  "L2",
+                  "R",
+                  "R'",
+                  "R2",
+                  "F",
+                  "F'",
+                  "F2",
+                  "B",
+                  "B'",
+                  "B2"
+                ]
+              }
+            },
+            "required": [
+              "move"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

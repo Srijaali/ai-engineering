@@ -1,0 +1,25 @@
+{
+  "scramble": [
+    "R",
+    "U",
+    "F'",
+    "L2"
+  ],
+  "n1_replacements": [
+    [
+      "The cube has 54 stickers in face order U R F D L B.",
+      "The cube has 54 stickers shown in an unfolded text net."
+    ],
+    [
+      "The unique solved facelets string is UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB. ",
+      "The unique solved cube net is:\n    U\n    UUU\n    UUU\n    UUU\nL   F   R   B\nLLL FFF RRR BBB\nLLL FFF RRR BBB\nLLL FFF RRR BBB\n    D\n    DDD\n    DDD\n    DDD\n"
+    ],
+    [
+      "Observation fields: facelets, facelet_order, recent_moves (last 6), moves_used, moves_remaining.",
+      "Observation fields: net, recent_moves (last 6), moves_used, moves_remaining."
+    ]
+  ],
+  "n2_inserted_sentence": "The net field shows the same cube state in unfolded form.",
+  "question_unchanged": "Choose the single next move most likely to progress toward the solved cube.",
+  "production_prompt_adopted": false
+}

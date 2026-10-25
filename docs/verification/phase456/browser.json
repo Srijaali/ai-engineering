@@ -1,0 +1,21 @@
+{
+  "replay_network_requests": 0,
+  "requests_before_playback": [
+    "GET /",
+    "GET /race.js",
+    "GET /api/config",
+    "GET /api/results",
+    "GET /api/replay/ad4a4b04d0bbedaa3c0e492208dd58b2"
+  ],
+  "requests_after_playback": [
+    "GET /",
+    "GET /race.js",
+    "GET /api/config",
+    "GET /api/results",
+    "GET /api/replay/ad4a4b04d0bbedaa3c0e492208dd58b2"
+  ],
+  "external_http_client": "disabled; raises on use",
+  "mode": "SIMULATED",
+  "models": 4,
+  "moves_each": 30
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-24T18:28:57.820891+00:00",
+  "models_called_once": true,
+  "requests": 4,
+  "retries": 0,
+  "key_limit_usd": 5,
+  "max_local_batch_reservations_usd": "1",
+  "known_batch_cost_usd": "0.000173630",
+  "unreported_batch_cost_calls": 1,
+  "known_plus_retained_reservations_usd": "0.250173630",
+  "cumulative_known_cost_usd": "0.000729536",
+  "cumulative_unreported_cost_calls": 10,
+  "stopped_on_402": true,
+  "mapping_correction": "See D-085; one actual Luna call, no duplicates",
+  "stages": {
+    "jev": {
+      "model_id": "typesafe/jev-1.13",
+      "http_status": 200,
+      "latency_ms": 1517.2991670006013,
+      "resolved_model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "cost_usd": 4.9686e-05,
+      "move": "U",
+      "confidence": 0.15,
+      "valid": true
+    },
+    "luna": {
+      "model_id": "openai/gpt-6-luna-decisions",
+      "http_status": 200,
+      "latency_ms": 1331.5012080001907,
+      "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+      "provider": "OpenAI",
+      "cost_usd": 8.06e-05,
+      "move": "U",
+      "confidence": 0.09,
+      "valid": true
+    },
+    "clef": {
+      "model_id": "cloudflare/clef",
+      "http_status": 200,
+      "latency_ms": 2638.7693750002654,
+      "resolved_model": "cloudflare/clef",
+      "provider": "PrimeIntellect",
+      "cost_usd": 4.3344e-05,
+      "move": "U'",
+      "confidence": 0.0533,
+      "valid": true
+    },
+    "opus": {
+      "model_id": "anthropic/claude-opus-5.5",
+      "http_status": 402,
+      "latency_ms": 1182.2635830012587,
+      "resolved_model": null,
+      "provider": null,
+      "cost_usd": null,
+      "move": null,
+      "confidence": null,
+      "valid": false
+    }
+  }
+}
